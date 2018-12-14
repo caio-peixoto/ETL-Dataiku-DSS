@@ -42,6 +42,137 @@
           "disabled": false,
           "type": "CreateColumnWithGREL",
           "params": {
+            "expression": "strval(\"NUMERODO\")",
+            "column": "NUMERODO"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    cell \u003d row[\"IDADEMAE\"]\n    try:\n        val \u003d int(cell)\n        return cell\n    except:\n        return None\n\n#if(isError(isNumeric(toNumber(QTDFILMORT))),null,if(isNumeric(toNumber(QTDFILMORT)),QTDFILMORT,null))",
+            "column": "IDADEMAE",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    cell \u003d row[\"NATURAL\"]\n    try:\n        val \u003d int(cell)\n        return cell\n    except:\n        return None\n\n#if(isError(isNumeric(toNumber(QTDFILMORT))),null,if(isNumeric(toNumber(QTDFILMORT)),QTDFILMORT,null))",
+            "column": "NATURAL",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    cell \u003d row[\"OCUP\"]\n    try:\n        val \u003d int(cell)\n        return cell\n    except:\n        return None\n\n#if(isError(isNumeric(toNumber(QTDFILMORT))),null,if(isNumeric(toNumber(QTDFILMORT)),QTDFILMORT,null))",
+            "column": "OCUP",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    cell \u003d row[\"OCUPMAE\"]\n    try:\n        val \u003d int(cell)\n        return cell\n    except:\n        return None\n\n#if(isError(isNumeric(toNumber(QTDFILMORT))),null,if(isNumeric(toNumber(QTDFILMORT)),QTDFILMORT,null))",
+            "column": "OCUPMAE",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    cell \u003d row[\"PESO\"]\n    try:\n        val \u003d int(cell)\n        return cell\n    except:\n        return None\n\n#if(isError(isNumeric(toNumber(QTDFILMORT))),null,if(isNumeric(toNumber(QTDFILMORT)),QTDFILMORT,null))",
+            "column": "PESO",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    cell \u003d row[\"QTDFILVIVO\"]\n    try:\n        val \u003d int(cell)\n        return cell\n    except:\n        return None\n\n#if(isError(isNumeric(toNumber(QTDFILMORT))),null,if(isNumeric(toNumber(QTDFILMORT)),QTDFILMORT,null))",
+            "column": "QTDFILVIVO",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    cell \u003d row[\"QTDFILMORT\"]\n    try:\n        val \u003d int(cell)\n        return cell\n    except:\n        return None\n\n#if(isError(isNumeric(toNumber(QTDFILMORT))),null,if(isNumeric(toNumber(QTDFILMORT)),QTDFILMORT,null))",
+            "column": "QTDFILMORT",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "if(CIRCOBITO!\u003d1 \u0026\u0026 CIRCOBITO!\u003d2 \u0026\u0026 CIRCOBITO!\u003d3 \u0026\u0026 CIRCOBITO!\u003d4,9,CIRCOBITO)",
+            "column": "CIRCOBITO"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "if(GESTACAO!\u003d1 \u0026\u0026 GESTACAO!\u003d2 \u0026\u0026 GESTACAO!\u003d3 \u0026\u0026 GESTACAO!\u003d4 \u0026\u0026 GESTACAO!\u003d5 \u0026\u0026 GESTACAO!\u003d6,9,GESTACAO)",
+            "column": "GESTACAO"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
             "expression": "if(TIPOBITO!\u003d1 \u0026\u0026 TIPOBITO!\u003d2,9,TIPOBITO)",
             "column": "TIPOBITO"
           },
@@ -53,8 +184,35 @@
           "disabled": false,
           "type": "CreateColumnWithGREL",
           "params": {
-            "expression": "if(SEXO!\u003d0 \u0026\u0026 SEXO!\u003d1 \u0026\u0026 SEXO!\u003d2,0,SEXO)",
+            "expression": "if(SEXO!\u003d0 \u0026\u0026 SEXO!\u003d1 \u0026\u0026 SEXO!\u003d2 \u0026\u0026 SEXO!\u003d\"M\" \u0026\u0026 SEXO!\u003d\"F\",0,SEXO)",
             "column": "SEXO"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "",
+            "mapping": [
+              {
+                "from": "M",
+                "to": "1"
+              },
+              {
+                "from": "F",
+                "to": "2"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "SEXO"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
           },
           "alwaysShowComment": false
         },
@@ -99,6 +257,17 @@
           "params": {
             "expression": "if(LOCOCOR!\u003d1 \u0026\u0026 LOCOCOR!\u003d2 \u0026\u0026 LOCOCOR!\u003d3 \u0026\u0026 LOCOCOR!\u003d4 \u0026\u0026 LOCOCOR!\u003d5 \u0026\u0026 LOCOCOR!\u003d9,9,LOCOCOR)",
             "column": "LOCOCOR"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "if(ESCMAE!\u003d1 \u0026\u0026 ESCMAE!\u003d2 \u0026\u0026 ESCMAE!\u003d3 \u0026\u0026 ESCMAE!\u003d4 \u0026\u0026 ESCMAE!\u003d5 \u0026\u0026 ESCMAE!\u003d9,9,ESCMAE)",
+            "column": "ESCMAE"
           },
           "alwaysShowComment": false
         }
@@ -1307,19 +1476,10 @@
           "preview": false,
           "metaType": "PROCESSOR",
           "disabled": false,
-          "type": "DateParser",
+          "type": "CreateColumnWithGREL",
           "params": {
-            "outCol": "data_nasc",
-            "formats": [
-              "ddMMyyyy",
-              "0000yyyy"
-            ],
-            "columns": [
-              "DTNASC"
-            ],
-            "timezone_id": "UTC",
-            "appliesTo": "SINGLE_COLUMN",
-            "lang": "auto"
+            "expression": "if(isError(asDate(strval(\"DTOBITO\"),\"ddMMyyyy\")),null,asDate(strval(\"DTOBITO\"),\"ddMMyyyy\"))",
+            "column": "data_obito"
           },
           "alwaysShowComment": false
         },
@@ -1329,7 +1489,45 @@
           "disabled": false,
           "type": "DateComponentsExtractor",
           "params": {
-            "outYearColumn": "ano_nasc",
+            "outYearColumn": "",
+            "column": "data_obito",
+            "outDayOfWeekColumn": "dia_semana_obito",
+            "timezone_id": "UTC"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    if row[\"DTOBITO\"]\u003d\u003dNone:\n        return None\n    \n    try:\n        str_ano_obito \u003d str(row[\"DTOBITO\"])[-4:]\n        int_ano_obito \u003d int(str_ano_obito)\n    except:\n        return None\n    \n    if len(str_ano_obito)\u003c4: #campo com dados inválidos\n        return None\n    \n    if (int_ano_obito \u003c int(dss_variables[\"first_year_SIM\"])) | (int_ano_obito \u003e int(dss_variables[\"last_year_SIM\"])):\n        return None\n    else:\n        return str_ano_obito",
+            "column": "ano_obito",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "if(isError(asDate(strval(\"DTNASC\"),\"ddMMyyyy\")),null,asDate(strval(\"DTNASC\"),\"ddMMyyyy\"))",
+            "column": "data_nasc"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "DateComponentsExtractor",
+          "params": {
+            "outYearColumn": "",
             "column": "data_nasc",
             "outDayOfWeekColumn": "dia_semana_nasc",
             "timezone_id": "UTC"
@@ -1340,18 +1538,13 @@
           "preview": false,
           "metaType": "PROCESSOR",
           "disabled": false,
-          "type": "DateParser",
+          "type": "PythonUDF",
           "params": {
-            "outCol": "data_obito",
-            "formats": [
-              "ddMMyyyy"
-            ],
-            "columns": [
-              "DTOBITO"
-            ],
-            "timezone_id": "UTC",
-            "appliesTo": "SINGLE_COLUMN",
-            "lang": "auto"
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    if row[\"DTNASC\"]\u003d\u003dNone:\n        return None\n    \n    try:\n        str_ano_nasc \u003d str(row[\"DTNASC\"])[-4:]\n        int_ano_nasc \u003d int(str_ano_nasc)\n        int_ano_obito \u003d int(row[\"ano_obito\"])\n    except:\n        return None\n    \n    if len(str_ano_nasc)\u003c4: #campo com dados inválidos\n        return None\n    \n    if (int_ano_nasc \u003e int_ano_obito) | ((int_ano_obito - int_ano_nasc) \u003e 150):\n        return None\n    else:\n        return str_ano_nasc\n\n#if(toNumber(get(splitByLengths(strval(\"DTNASC\"),length(strval(\"DTNASC\"))-4,4),1)) \u003e ano_obito \u0026\u0026 (ano_obito - toNumber(get(splitByLengths(strval(\"DTNASC\"),length(strval(\"DTNASC\"))-4,4),1))) \u003e 150, null, get(splitByLengths(strval(\"DTNASC\"),length(strval(\"DTNASC\"))-4,4),1))",
+            "column": "ano_nasc",
+            "usePythonUnicode": true
           },
           "alwaysShowComment": false
         },
@@ -1359,12 +1552,33 @@
           "preview": false,
           "metaType": "PROCESSOR",
           "disabled": false,
-          "type": "DateComponentsExtractor",
+          "type": "ColumnReorder",
           "params": {
-            "outYearColumn": "ano_obito",
-            "column": "data_obito",
-            "outDayOfWeekColumn": "dia_semana_obito",
-            "timezone_id": "UTC"
+            "referenceColumn": "DTOBITO",
+            "columns": [
+              "data_obito",
+              "ano_obito",
+              "dia_semana_obito"
+            ],
+            "reorderAction": "AFTER_COLUMN",
+            "appliesTo": "COLUMNS"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnReorder",
+          "params": {
+            "referenceColumn": "DTNASC",
+            "columns": [
+              "data_nasc",
+              "ano_nasc",
+              "dia_semana_nasc"
+            ],
+            "reorderAction": "AFTER_COLUMN",
+            "appliesTo": "COLUMNS"
           },
           "alwaysShowComment": false
         },
@@ -1378,31 +1592,31 @@
             "mapping": [
               {
                 "from": "1",
-                "to": "dom"
-              },
-              {
-                "from": "2",
                 "to": "seg"
               },
               {
-                "from": "3",
+                "from": "2",
                 "to": "ter"
               },
               {
-                "from": "4",
+                "from": "3",
                 "to": "qua"
               },
               {
-                "from": "5",
+                "from": "4",
                 "to": "qui"
               },
               {
-                "from": "6",
+                "from": "5",
                 "to": "sex"
               },
               {
-                "from": "7",
+                "from": "6",
                 "to": "sáb"
+              },
+              {
+                "from": "7",
+                "to": "dom"
               }
             ],
             "normalization": "EXACT",
@@ -1429,6 +1643,95 @@
           "preview": false,
           "metaType": "PROCESSOR",
           "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    idade \u003d row[\"IDADE\"]\n    \n    try:\n        int(idade)\n    except:\n        return None\n    \n    if len(idade)\u003c3: #campo com dados inválidos\n        return None\n    \n    unidade_idade \u003d int(idade[0])\n    idade_val \u003d idade[1]+idade[2]\n\n    if unidade_idade\u003e\u003d0 and unidade_idade\u003c4: #Menos de um ano\n        return 0\n    \n    if unidade_idade\u003e5: #Valor inválido\n        return None\n    \n    return int((unidade_idade-4)*100+int(idade_val))\n    \n#if(IDADE_1\u003e\u003d0 \u0026\u0026 IDADE_1\u003c4,0,if(IDADE_1\u003e\u003d4 \u0026\u0026 IDADE_1\u003c\u003d5,(IDADE_1-4)*100+IDADE_2,null))",
+            "column": "idade_obito_anos",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    idade \u003d row[\"IDADE\"]\n    \n    try:\n        int(idade)\n    except:\n        return None\n    \n    if len(idade)\u003c3: #campo com dados inválidos\n        return None\n    \n    unidade_idade \u003d int(idade[0])\n    idade_val \u003d idade[1]+idade[2]\n\n    if unidade_idade\u003e\u003d0 and unidade_idade\u003c3: #Menos de um mes\n        return 0\n    \n    if unidade_idade\u003e5: #Valor inválido\n        return None\n    \n    if unidade_idade\u003e3: #Idade em anos, ignorada no campo de idade em meses\n        return None\n    \n    if (unidade_idade\u003d\u003d3) \u0026 ((int(idade_val) \u003c 1) | (int(idade_val) \u003e 11)): #Valor inválido (nao esta entre 01 e 11)\n        return None\n    \n    return int(idade_val)\n\n#if(IDADE_1\u003e\u003d0 \u0026\u0026 IDADE_1\u003c4,0,if(IDADE_1\u003e\u003d4 \u0026\u0026 IDADE_1\u003c\u003d5,(IDADE_1-4)*100+IDADE_2,null))",
+            "column": "idade_obito_meses",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    idade \u003d row[\"IDADE\"]\n    \n    try:\n        int(idade)\n    except:\n        return None\n    \n    if len(idade)\u003c3: #campo com dados inválidos\n        return None\n    \n    unidade_idade \u003d int(idade[0])\n    idade_val \u003d idade[1]+idade[2]\n\n    if unidade_idade\u003e\u003d0 and unidade_idade\u003c2: #Menos de um dia\n        return 0\n    \n    if unidade_idade\u003e5: #Valor inválido\n        return None\n    \n    if unidade_idade\u003e2: #Idade em meses, ignorada no campo de idade em dias\n        return None\n    \n    if (unidade_idade\u003d\u003d2) \u0026 ((int(idade_val) \u003c 1) | (int(idade_val) \u003e 29)): #Valor inválido (nao esta entre 01 e 29)\n        return None\n    \n    return int(idade_val)\n\n#if(IDADE_1\u003e\u003d0 \u0026\u0026 IDADE_1\u003c4,0,if(IDADE_1\u003e\u003d4 \u0026\u0026 IDADE_1\u003c\u003d5,(IDADE_1-4)*100+IDADE_2,null))",
+            "column": "idade_obito_dias",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    idade \u003d row[\"IDADE\"]\n    \n    try:\n        int(idade)\n    except:\n        return None\n    \n    if len(idade)\u003c3: #campo com dados inválidos\n        return None\n    \n    unidade_idade \u003d int(idade[0])\n    idade_val \u003d idade[1]+idade[2]\n\n    if unidade_idade\u003e\u003d0 and unidade_idade\u003c1: #Menos de uma hora\n        return 0\n    \n    if unidade_idade\u003e5: #Valor inválido\n        return None\n    \n    if unidade_idade\u003e1: #Idade em dias, ignorada no campo de idade em horas\n        return None\n    \n    if (unidade_idade\u003d\u003d1) \u0026 ((int(idade_val) \u003c 1) | (int(idade_val) \u003e 23)): #Valor inválido (nao esta entre 01 e 23)\n        return None\n    \n    return int(idade_val)\n\n#if(IDADE_1\u003e\u003d0 \u0026\u0026 IDADE_1\u003c4,0,if(IDADE_1\u003e\u003d4 \u0026\u0026 IDADE_1\u003c\u003d5,(IDADE_1-4)*100+IDADE_2,null))",
+            "column": "idade_obito_horas",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    idade \u003d row[\"IDADE\"]\n    \n    try:\n        int(idade)\n    except:\n        return None\n    \n    if len(idade)\u003c3: #campo com dados inválidos\n        return None\n    \n    unidade_idade \u003d int(idade[0])\n    idade_val \u003d idade[1]+idade[2]\n\n    if unidade_idade\u003e5: #Valor inválido\n        return None\n    \n    if unidade_idade\u003e0: #Idade em horas, ignorada no campo de idade em minutos\n        return None\n    \n    if (unidade_idade\u003d\u003d0) \u0026 ((int(idade_val) \u003c 1) | (int(idade_val) \u003e 59)): #Valor inválido (nao esta entre 01 e 59)\n        return None\n    \n    return int(idade_val)\n\n#if(IDADE_1\u003e\u003d0 \u0026\u0026 IDADE_1\u003c4,0,if(IDADE_1\u003e\u003d4 \u0026\u0026 IDADE_1\u003c\u003d5,(IDADE_1-4)*100+IDADE_2,null))",
+            "column": "idade_obito_mins",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnReorder",
+          "params": {
+            "referenceColumn": "IDADE",
+            "columns": [
+              "idade_obito_anos",
+              "idade_obito_meses",
+              "idade_obito_dias",
+              "idade_obito_horas",
+              "idade_obito_mins"
+            ],
+            "reorderAction": "AFTER_COLUMN",
+            "appliesTo": "COLUMNS"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": true,
           "type": "RegexpExtractor",
           "params": {
             "found_col": false,
@@ -1442,7 +1745,7 @@
         {
           "preview": false,
           "metaType": "PROCESSOR",
-          "disabled": false,
+          "disabled": true,
           "type": "ArrayExtractProcessor",
           "params": {
             "mode": "INDEX",
@@ -1456,7 +1759,7 @@
         {
           "preview": false,
           "metaType": "PROCESSOR",
-          "disabled": false,
+          "disabled": true,
           "type": "ArrayExtractProcessor",
           "params": {
             "mode": "INDEX",
@@ -1470,7 +1773,7 @@
         {
           "preview": false,
           "metaType": "PROCESSOR",
-          "disabled": false,
+          "disabled": true,
           "type": "CreateColumnWithGREL",
           "params": {
             "expression": "if(IDADE_1\u003e\u003d0 \u0026\u0026 IDADE_1\u003c4,0,if(IDADE_1\u003e\u003d4 \u0026\u0026 IDADE_1\u003c\u003d5,(IDADE_1-4)*100+IDADE_2,null))",
@@ -1481,7 +1784,7 @@
         {
           "preview": false,
           "metaType": "PROCESSOR",
-          "disabled": false,
+          "disabled": true,
           "type": "ColumnsSelector",
           "params": {
             "columns": [
@@ -1505,6 +1808,43 @@
             "input1": "data_nasc",
             "compareTo": "COLUMN",
             "reverse": false
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "Enriquecendo com coordenadas",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "def process(row):\n    if row[\"res_LATITUDE\"] is None or row[\"res_LONGITUDE\"] is None:\n        return None\n    \n    try:\n        lat \u003d str(row[\"res_LATITUDE\"])\n        long \u003d str(row[\"res_LONGITUDE\"])\n        f_lat \u003d float(lat)\n        f_long \u003d float(long)\n    except:\n        return None\n    \n    return lat+\",\"+long\n\n# Cria coluna com coordenadas \"lat,lon\"\n# https://www.elastic.co/guide/en/elasticsearch/reference/current/geo-point.html \n# Geo-point expressed as a string with the format: \"lat,lon\"",
+            "column": "res_coordenadas",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "def process(row):\n    if row[\"ocor_LATITUDE\"] is None or row[\"ocor_LONGITUDE\"] is None:\n        return None\n    \n    try:\n        lat \u003d str(row[\"ocor_LATITUDE\"])\n        long \u003d str(row[\"ocor_LONGITUDE\"])\n        f_lat \u003d float(lat)\n        f_long \u003d float(long)\n    except:\n        return None\n    \n    return lat+\",\"+long\n\n# Cria coluna com coordenadas \"lat,lon\"\n# https://www.elastic.co/guide/en/elasticsearch/reference/current/geo-point.html \n# Geo-point expressed as a string with the format: \"lat,lon\"",
+            "column": "ocor_coordenadas",
+            "usePythonUnicode": true
           },
           "alwaysShowComment": false
         }
