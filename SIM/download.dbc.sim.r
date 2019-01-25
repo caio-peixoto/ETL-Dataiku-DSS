@@ -1,4 +1,4 @@
-download.dbc.sim <- function(ftp_path = "ftp://ftp.datasus.gov.br/dissemin/publicos/SIM/CID10/DORES/",
+download.dbc <- function(ftp_path,
                          dest_files_path = getwd(),
                          estados = NULL, anos = NULL){
   require(RCurl)
