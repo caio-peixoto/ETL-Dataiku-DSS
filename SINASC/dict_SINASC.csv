@@ -1,0 +1,126 @@
+id,type,description
+NUMERODN,text,"Número da DN, sequencial por UF informante e por ano"
+LOCNASC,bigint,"Local de ocorrência do nascimento, conforme a tabela:
+9: Ignorado
+1: Hospital
+2: Outro Estab Saúde
+3: Domicílio
+4: Outros"
+def_loc_nasc,text,"Local de nascimento (Nominal, com as seguintes classificações:
+Hospital; Outros estabelecimentos de saúde; Domicílio; Via pública; Outros; Ignorado)"
+CODMUNNASC,bigint,"Município de ocorrência, em codificação idêntica a de
+CODMUNRES, conforme tabela TABMUN"
+IDADEMAE,bigint,Idade da mãe em anos
+ESTCIVMAE,text,"Estado civil, conforme a tabela:
+1: Solteira
+2: Casada
+3: Viuva
+4: Separado judicialmente/Divorciado
+5: União consensual (versões anteriores)
+9: Ignorado"
+def_est_civil,text,Estado civil (Situação conjugal: Solteiro; Casado; Viúvo; Separado judicialmente/divorciado; União estável; Ignorado)
+ESCMAE,bigint,"Escolaridade, anos de estudo concluídos:
+1: Nenhuma
+2: 1 a 3 anos
+3: 4 a 7 anos
+4: 8 a 11 anos
+5: 12 e mais
+9: Ignorado"
+def_escol_mae,text,Escolaridade da mãe (Nenhuma; de 1 a 3 anos; de 4 a 7 anos; 8 a 11 anos; 12 anos e mais; Ignorado)
+CODOCUPMAE,text,"Ocupação, conforme a Classificação Brasileira de Ocupações (CBO-2002)"
+QTDFILVIVO,bigint,Número de filhos vivos
+QTDFILMORT,bigint,Número de filhos mortos
+CODMUNRES,bigint,"Município de residência da mãe, em codificação idêntica a de
+CODMUNNASC, conforme tabela TABMUN"
+GESTACAO,bigint,"Semanas de gestação, conforme a tabela:
+9: Ignorado
+1: Menos de 22 semanas
+2: 22 a 27 semanas
+3: 28 a 31 semanas
+4: 32 a 36 semanas
+5: 37 a 41 semanas
+6: 42 semanas e mais"
+def_gestacao,text,"Semana de gestação (Nominal, com as seguintes classificações: Menos de 22 semanas; 22 a 27 semanas; 28 a 31 semanas; 32 a 36 semanas; 37 a 41 semanas; 42 semanas ou mais)"
+GRAVIDEZ,bigint,"Tipo de gravidez, conforme a tabela:
+9: Ignorado
+1: Única
+2: Dupla
+3: Tripla e mais"
+def_gravidez,text,"Tipo de gravidez (Nominal, com as seguintes classificações: Única; Dupla; Tripla e mais e Ignorada)"
+PARTO,bigint,"Tipo de parto, conforme a tabela:
+9: Ignorado
+1: Vaginal
+2: Cesáreo"
+def_parto,text,"Tipo de parto (Nominal, com as seguintes classificações: Vaginal; Cesáreo; Ignorado)"
+CONSULTAS,bigint,"Número de consultas de pré-natal:
+1: Nenhuma
+2: de 1 a 3
+3: de 4 a 6
+4: 7 e mais
+9: Ignorado"
+def_consultas,text,Número de consultas durante o pré-natal (Nenhuma; de 1 a 3; de 4 a 6; 7 e mais; Ignorado)
+DTNASC,text,"Data do nascimento, no formato ddmmaaaa"
+data_nasc,date,Data de nascimento
+ano_nasc,bigint,Ano do nascimento
+dia_semana_nasc,text,Dia da semana em que ocorreu o nascimento (dom; seg; ter; qua; qui; sex; sáb)
+SEXO,bigint,"Sexo, conforme a tabela:
+0: Ignorado, não informado
+1: Masculino
+2: Feminino"
+def_sexo,text,"Sexo (Nominal, com as seguintes classificações: Masculino; Feminino; Ignorado)"
+APGAR1,text,"Apgar no primeiro minuto
+00 a 10"
+APGAR5,text,"Apgar no quinto minuto
+00 a 10"
+RACACOR,bigint,"Raça/Cor:
+1:Branca
+2:Preta
+3:Amarela
+4: Parda
+5: Indígena"
+def_raca_cor,text,"Raça/cor (Nominal, com as seguintes classificações: Branca; Preta; Amarela; Parda; Indígena)"
+PESO,bigint,"Peso ao nascer, em gramas"
+CODANOMAL,text,"Código de malformação congênita ou anomalia cromossômica, de acordo com a CID-10"
+IDANOMAL,bigint,"Anomalia congênita:
+9:Ignorado
+1:Sim
+2:Não"
+def_anomalia,text,Anomalia congênita (Ignorado; Sim; Não)
+nasc_MUNNOME,text,Nome do município de nascimento
+nasc_MUNNOMEX,text,Nome do município de nascimento em maiúsculas e sem acentos
+nasc_AMAZONIA,text,Indica (S/N) se o município de nascimento faz parte da Amazônia Legal (conforme IBGE)
+nasc_FRONTEIRA,text,Indica (S/N) se o município de nascimento faz parte da faixa de fronteira (conforme IBGE)
+nasc_CAPITAL,text,Indica (S/N) se o município de nascimento é capital de UF
+nasc_MSAUDCOD,bigint,Código da Macrorregional de Saúde a que o Município de nascimento pertence
+nasc_RSAUDCOD,bigint,Código da Regional de Saúde a que o Município de nascimento pertence
+nasc_CSAUDCOD,bigint,Código da Microrregional de Saúde a que o Município de nascimento pertence
+nasc_LATITUDE,float,Latitude do município de nascimento
+nasc_LONGITUDE,float,Longitude do município de nascimento
+nasc_ALTITUDE,bigint,Altitude do município de nascimento
+nasc_AREA,float,Área do município de nascimento
+nasc_codigo_adotado,bigint,"Armazena o código atribuído ao município de nascimento atualmente, tratando os casos em que múltiplos códigos tenham sido utilizados para um mesmo município ao longo do tempo"
+res_MUNNOME,text,Nome do município de residência
+res_MUNNOMEX,text,Nome do município de residência em maiúsculas e sem acentos
+res_AMAZONIA,text,Indica (S/N) se o município de residência faz parte da Amazônia Legal (conforme IBGE)
+res_FRONTEIRA,text,Indica (S/N) se o município de residência faz parte da faixa de fronteira (conforme IBGE)
+res_CAPITAL,text,Indica (S/N) se o município de residência é capital de UF
+res_MSAUDCOD,bigint,Código da Macrorregional de Saúde a que o Município de residência pertence
+res_RSAUDCOD,bigint,Código da Regional de Saúde a que o Município de residência pertence
+res_CSAUDCOD,bigint,Código da Microrregional de Saúde a que o Município de residência pertence
+res_LATITUDE,float,Latitude do município de residência
+res_LONGITUDE,float,Longitude do município de residência
+res_ALTITUDE,bigint,Altitude do município de residência
+res_AREA,float,Área do município de residência
+res_codigo_adotado,bigint,"Armazena o código atribuído ao município de residência atualmente, tratando os casos em que múltiplos códigos tenham sido utilizados para um mesmo município ao longo do tempo"
+nasc_SIGLA_UF,text,Sigla da unidade da federação de nascimento
+nasc_CODIGO_UF,bigint,Código da UF de nascimento
+nasc_NOME_UF,text,Nome da unidade da federação de nascimento
+res_SIGLA_UF,text,Sigla da unidade da federação de residência
+res_CODIGO_UF,bigint,Código da UF de residência
+res_NOME_UF,text,Nome da unidade da federação de residência
+codanomal_capitulo,text,Capítulo CID-10 da malformação congênita ou anomalia cromossômica
+codanomal_grupo,text,Grupo CID-10 da malformação congênita ou anomalia cromossômica
+codanomal_categoria,text,Categoria CID-10 da malformação congênita ou anomalia cromossômica
+codanomal_subcategoria,text,Subcategoria CID-10 da malformação congênita ou anomalia cromossômica
+nasc_coordenadas,text,Coordenadas do município de nascimento
+res_coordenadas,text,Coordenadas do município de residência
