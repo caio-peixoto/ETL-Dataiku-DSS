@@ -1,0 +1,289 @@
+id;type;description
+CNES;text;Número nacional do estabelecimento de saúde
+CODUFMUN;bigint;Código do município do estabelecimento: UF + MUNIC (sem dígito)
+COD_CEP;text;Código do CEP do estabelecimento
+CPF_CNPJ;text;CPF do estabelecimento, caso pessoa física ou CNPJ, caso pessoa jurídica
+PF_PJ;bigint;Indicador de pessoa: 1-Física 3-Jurídica
+def_pf_pj;text;Definição do Indicador de pessoa
+NIV_DEP;bigint;Grau de dependência, onde: 1-Individual 3-Mantida
+def_niv_dep;text;Definição do Grau de dependência
+CNPJ_MAN;text;CNPJ da mantenedora do estabelecimento.
+COD_IR;text;"Indica o tipo de retenção de tributos da mantenedora. 10-Estabelecimento PUBLICO; 11-Estabelecimento FILANTROPICO; 12-Estabelecimento SEM FINS LUCRATIVOS; 13-Estabelecimento PRIVADO LUCRATIVA SIMPLES; 14-Estabelecimento PRIVADO LUCRATIVA; 15-Estabelecimento SINDICAL; 16-Estabelecimento PESSOA FISICA; 19-Estabelecimento Ret.Manten.código 19; IR-Estabelecimento Ret.Manten.código IR"
+def_cod_ir;text;Definição da Indicação o tipo de retenção de tributos da mantenedora
+REGSAUDE;text;Código da região de saúde NOAS
+MICR_REG;text;Código da micro-região de saúde NOAS
+DISTRSAN;text;Código do distrito sanitário
+DISTRADM;text;Inicialmente chamado Distrito Administrativo, atualmente Código do Módulo Assistencial conforme tabela local, em conformidade com o Plano Diretor de Regionalização do Estado/Município.
+VINC_SUS;bigint;Vínculo com SUS: 1-Sim 0-Não
+TPGESTAO;text;"Gestão de saúde. -Z-Não informado; D-Dupla; E-Estadual; M-Municipal; Z,S-Sem gestão"
+def_tpgestao;text;Definição da Gestão de saúde
+ESFERA_A;text;"Código da esfera administrativa. 01-Federal; 02-Estadual; 03-Municipal; 04-Privada; 99-Esfera não informada"
+def_esfera_a;text;Definição do Código da esfera administrativa
+RETENCAO;text;"Código de retenção de tributos. 00,99-Retenção estab. não  informada; 10-Estabelecimento PUBLICO; 11-Estabelecimento FILANTROPICO; 12-Estabelecimento SEM FINS LUCRATIVOS; 13-Estabelecimento PRIVADO LUCRATIVA SIMPLES; 14-Estabelecimento PRIVADO LUCRATIVA; 15-Estabelecimento SINDICAL; 16-Estabelecimento PESSOA FISICA"
+def_retencao;text;Definição do Código de retenção de tributos
+ATIVIDAD;text;"Código da atividade de ensino/pesquisa. 01-Unidade Universitária; 02-Unidade Escola Superior Isolada; 03-Unidade Auxiliar de Ensino; 04-Unidade SEM atividade de Ensino; 05-Hospital de Ensino; 99-Atividade Ensino não informada"
+def_atividad;text;Definição do Código da atividade de ensino/pesquisa
+NATUREZA;text;"Código da natureza da organização. 01-Administração Direta da Saúde (MS, SES, e SMS); 02-Adm Direta outros orgãos (MEX, MEx, Marinha,...); 03-Adm Indireta - Autarquias; 04-Adm Indireta - Fundação Pública; 05-Adm Indireta - Empresa Pública; 06-Adm Indireta - Organização Social Pública; 07-Empresa Privada; 08-Fundação Privada; 09-Cooperativa; 10-Serviço Social Autônomo; 11-Entidade Beneficente SEM fins lucrativos; 12-Economia MIsta; 13-Sindicato; 00-Natureza inexistente; 0-Natureza inexistente; 99-Natureza não informada"
+def_natureza;text;Definição do Código da natureza da organização
+CLIENTEL;text;"Código de FLUXO da clientela. 01-Atendimento de demanda espontânea; 02-Atendimento de demanda referenciada; 03-Atendimento de demanda espontânea e referenciada; 00-Fluxo de Clientela não exigido; 99-Fluxo de Clientela não informado"
+def_clientel;text;Definição do Código de FLUXO da clientela
+TP_UNID;text;Tipo de unidade (estabelecimento)
+def_tp_unid;text;Definição do Tipo de unidade (estabelecimento)
+TURNO_AT;text;"Código de turno de atendimento. 01-ATENDIMENTO TURNOS INTERMITENTES; 02-ATENDIMENTO CONTÍNUO 24 HORAS/DIA (Pl Sab Dom Fer); 03-ATENDIMENTO TURNOS MANHÃ/TARDE/NOITE; 04-ATENDIMENTO SOMENTE PELA MANHÃ; 05-ATENDIMENTO SOMENTE À TARDE; 06-ATENDIMENTO TURNOS MANHÃ/TARDE; 07-ATENDIMENTO SOMENTE À NOITE; 99-Turno não informado"
+def_turno_at;text;Definição do Código de turno de atendimento
+NIV_HIER;text;"Código do nível de hierarquia. 01-NH 1-PAB-PABA; 02-NH 2-Média M1; 03-NH 3-Média M2 e M3; 04-NH 4-AltaComplex.Ambul.; 05-NH 5-Baixa M1 e M2; 06-NH 6-Média M2 e M3; 07-NH 7-Média M3; 08-NH 8-AltaCompl.Hos/Amb.; 00,99-NH não informado"
+def_niv_hier;text;Definição do Código do nível de hierarquia
+TP_PREST;bigint;"Tipo de Prestador. 30-PUBLICO FEDERAL; 40-PUBLICO ESTADUAL; 50-PUBLICO MUNICIPAL; 61-FILANTROPICO COM CNAS VALIDO; 80-SINDICATO; 20-PRIVADO COM FINS LUCRATIVOS; 22-PRIVADO OPTANTE PELO SIMPLES; 60-PRIVADO SEM FINS LUCRATIVOS; 99-TIPO DE PRESTADOR NÃO INFORMADO"
+def_tp_prest;text;Definição de Tipo de Prestador
+CO_BANCO;text;Código do Banco do Estabelecimento
+CO_AGENC;text;Código da Agência do Estabelecimento
+C_CORREN;text;Código da Conta Corrente do Estabelecimento
+CONTRATM;text;Número do contrato/convênio MUNICIPAL do vínculo com o SUS
+DT_PUBLM;text;Ano e Mês de publicação do contrato /convênio MUNICIPAL (AAAAMM)
+CONTRATE;text;Número do contrato/convênio ESTADUAL do vínculo com o SUS
+DT_PUBLE;text;Ano e Mês de publicação do contrato  /convênio ESTADUAL (AAAAMM)
+ALVARA;text;Número do alvará
+DT_EXPED;text;Ano e Mês de da expedição do alvará (AAAAMM)
+ORGEXPED;bigint;Órgão expedidor do alvará, onde: 1-SES 2-SMS
+def_orgexped;text;Definição do Órgão expedidor do alvará
+AV_ACRED;text;"Indica se o estabelecimento foi avaliado segundo o Manual de Acreditação Hospitalar do MS, onde:
+1-Sim 2-Não"
+def_av_acred;text;Definição da Avaliação do estabelecimento segundo o Manual de Acreditação Hospitalar do MS
+CLASAVAL;text;"Classificação da avaliação do estabelecimento segundo o Manual de Acreditação Hospitalar do MS. 1-ACREDITADO NO NÍV.1; 2-ACREDITADO NO NÍV.2; 3-ACREDITADO NO NÍV.3; 0-NÃO ATENDEU AOS PADRÕES MÍNIMOS; 9-Nível Avaliação não informado"
+def_clasaval;text;Definição da Classificação da avaliação do estabelecimento segundo o Manual de Acreditação Hospitalar do MS
+DT_ACRED;text;Ano e Mês da Acreditação (AAAAMM)
+AV_PNASS;text;"Indica se o estabelecimento foi avaliado segundo o Programa Nacional de Serviços de Saúde - PNASS, onde:
+1-Sim 2-Não"
+def_av_pnass;text;Definição da Avaliação do estabelecimento segundo o Programa Nacional de Serviços de Saúde - PNASS
+DT_PNASS;text;Ano e Mês da Avaliação PNASS (AAAAMM)
+GESPRG1E;bigint;"Indicador se a gestão da atividade ATENÇÃO BÁSICA do Nível de Atenção AMBULATORIAL é ESTADUAL, onde:
+1-sim 0-não"
+GESPRG1M;bigint;"Indicador se a gestão da atividade ATENÇÃO BÁSICA do Nível de Atenção AMBULATORIAL é MUNICIPAL, onde:
+1-sim 0-não"
+GESPRG2E;bigint;"Indicador se a gestão da atividade MÉDIA COMPLEXIDADE do Nível de Atenção AMBULATORIAL é ESTADUAL, onde:
+1-sim 0-não"
+GESPRG2M;bigint;"Indicador se a gestão da atividade MÉDIA COMPLEXIDADE do Nível de Atenção AMBULATORIAL é MUNICIPAL, onde:
+1-sim 0-não"
+GESPRG4E;bigint;"Indicador se a gestão da atividade ALTA COMPLEXIDADE do Nível de Atenção AMBULATORIAL é ESTADUAL, onde:
+1-sim 0-não"
+GESPRG4M;bigint;"Indicador se a gestão da atividade ALTA COMPLEXIDADE do Nível de Atenção AMBULATORIAL é MUNICIPAL, onde:
+1-sim 0-não"
+NIVATE_A;bigint;"Indica a existência de Nível de Atenção AMBULATORIAL, de gestão Municipal/Estadual, para este CNES, onde:
+1-sim 0-não"
+GESPRG3E;bigint;Indicador se a gestão do programa cód. 03 é ESTADUAL, onde: 1-sim 0-não
+GESPRG3M;bigint;Indicador se a gestão do programa cód. 03 é MUNICIPAL, onde: 1-sim 0-não
+GESPRG5E;bigint;"Indicador se a gestão da atividade MÉDIA COMPLEXIDADE do Nível de Atenção HOSPITALAR é ESTADUAL, onde:
+1-sim 0-não"
+GESPRG5M;bigint;"Indicador se a gestão da atividade MÉDIA COMPLEXIDADE do Nível de Atenção HOSPITALAR é MUNICIPAL, onde:
+1-sim 0-não"
+GESPRG6E;bigint;"Indicador se a gestão da atividade ALTA COMPLEXIDADE do Nível de Atenção HOSPITALAR é ESTADUAL, onde:
+1-sim 0-não"
+GESPRG6M;bigint;"Indicador se a gestão da atividade ALTA COMPLEXIDADE do Nível de Atenção HOSPITALAR é MUNICIPAL, onde:
+1-sim 0-não"
+NIVATE_H;bigint;"Indica a existência de Nível de Atenção HOSPITALAR, de gestão Municipal/Estadual, para este CNES, onde:
+1-sim 0-não"
+QTLEITP1;bigint;Quantidade de leitos tipo 1 (cirúrgico) existentes
+QTLEITP2;bigint;Quantidade de leitos tipo 2 (clínico) existentes
+QTLEITP3;bigint;Quantidade de leitos tipo 3 (complem.) existentes
+LEITHOSP;bigint;"Indica a existência de LEITOS HOSPITALARES-CIRPURGICOS, CLÍNICOS E COMPLEMENTARES para este CNES, onde:
+1-sim 0-não"
+QTINST01;bigint;Quantidade de salas/consultórios de atendimento pediátrico (URGÊNCIA/EMERGÊNCIA)
+QTINST02;bigint;Quantidade de salas/consultórios de atendimento feminino (URGÊNCIA/EMERGÊNCIA)
+QTINST03;bigint;Quantidade de salas/consultórios de atendimento masculino (URGÊNCIA/EMERGÊNCIA)
+QTINST04;bigint;Quantidade de salas/consultórios de atendimento indiferenciado (URGÊNCIA/EMERGÊNCIA)
+QTINST05;bigint;Quantidade de salas de repouso/observação pediátrico (URGÊNCIA/EMERGÊNCIA)
+QTINST06;bigint;Quantidade de salas de repouso/observação feminino (URGÊNCIA/EMERGÊNCIA)
+QTINST07;bigint;Quantidade de salas de repouso/observação masculino (URGÊNCIA/EMERGÊNCIA)
+QTINST08;bigint;Quantidade de salas de repouso/observação indiferenciado (URGÊNCIA/EMERGÊNCIA)
+QTINST09;bigint;Quantidade de consultórios de odontologia (URGÊNCIA/EMERGÊNCIA)
+QTINST10;bigint;Quantidade de salas de Higienização (URGÊNCIA/EMERGÊNCIA)
+QTINST11;bigint;Quantidade de salas de gesso (URGÊNCIA/EMERGÊNCIA)
+QTINST12;bigint;Quantidade de salas de curativos (URGÊNCIA/EMERGÊNCIA)
+QTINST13;bigint;Quantidade de salas de pequenas cirurgias (URGÊNCIA/EMERGÊNCIA)
+QTINST14;bigint;Quantidade de consultórios médicos (URGÊNCIA/EMERGÊNCIA)
+URGEMERG;bigint;"Indica a existência de INSTALAÇÃO FÍSICA de URGÊNCIA/EMERGÊNCIA para este CNES, onde:
+1-sim 0-não"
+QTINST15;bigint;Quantidade de consultórios de clínica básica (ATEND. AMBULATORIAL)
+QTINST16;bigint;Quantidade de consultórios de clínica especializada (ATEND. AMBULATORIAL)
+QTINST17;bigint;Quantidade de consultórios de clínica indiferenciada (ATEND. AMBULATORIAL)
+QTINST18;bigint;Quantidade de consultórios não médicos (ATEND. AMBULATORIAL)
+QTINST19;bigint;Quantidade de salas de repouso/observação feminino (ATEND. AMBULATORIAL)
+QTINST20;bigint;Quantidade de salas de repouso/observação masculino (ATEND. AMBULATORIAL)
+QTINST21;bigint;Quantidade de salas de repouso/observação pediátrico (ATEND. AMBULATORIAL)
+QTINST22;bigint;Quantidade de salas de repouso/observação indiferenciado (ATEND. AMBULATORIAL)
+QTINST23;bigint;Quantidade de consultórios de odontologia (ATEND. AMBULATORIAL)
+QTINST24;bigint;Quantidade de salas de pequenas cirurgias (ATEND. AMBULATORIAL)
+QTINST25;bigint;Quantidade de salas de enfermagem (ATEND. AMBULATORIAL)
+QTINST26;bigint;Quantidade de salas de Imunização (ATEND. AMBULATORIAL)
+QTINST27;bigint;Quantidade de salas de nebulização (ATEND. AMBULATORIAL)
+QTINST28;bigint;Quantidade de salas de gesso (ATEND. AMBULATORIAL)
+QTINST29;bigint;Quantidade de salas de curativos (ATEND. AMBULATORIAL)
+QTINST30;bigint;Quantidade de salas de cirurgia ambulatorial (ATEND. AMBULATORIAL)
+ATENDAMB;bigint;"Indica a existência de INSTALAÇÃO FÍSICA de ATENDIMENTO AMBULATORIAL para este CNES, onde:
+1-sim 0-não"
+QTINST31;bigint;Quantidade de salas de cirurgias (CENTRO CIRÚRGICO)
+QTINST32;bigint;Quantidade de salas de recuperação (CENTRO CIRÚRGICO)
+QTINST33;bigint;Quantidade de salas de cirurgia ambulatorial (CENTRO CIRÚRGICO)
+CENTRCIR;bigint;"Indica a existência de INSTALAÇÃO FÍSICA de ATENDIMENTO HOSPITALAR- CENTRO CIRÚRGICO para este CNES, onde:
+1-sim 0-não"
+QTINST34;bigint;Quantidade de salas de pré parto (CENTRO OBSTÉTRICO)
+QTINST35;bigint;Quantidade de salas de parto normal (CENTRO OBSTÉTRICO)
+QTINST36;bigint;Quantidade de salas de curetagem (CENTRO OBSTÉTRICO)
+QTINST37;bigint;Quantidade de salas de cirurgias (CENTRO OBSTÉTRICO)
+CENTROBS;bigint;"Indica a existência de INSTALAÇÃO FÍSICA de ATENDIMENTO HOSPITALAR- CENTRO OBSTÉTRICO para este CNES, onde:
+1-sim 0-não"
+QTLEIT05;bigint;Quantidade de leitos de repouso/observação pediátrico (URGÊNCIA/EMERGÊNCIA)
+QTLEIT06;bigint;Quantidade de leitos de repouso/observação feminino (URGÊNCIA/EMERGÊNCIA)
+QTLEIT07;bigint;Quantidade de leitos de repouso/observação masculino (URGÊNCIA/EMERGÊNCIA)
+QTLEIT08;bigint;Quantidade de leitos de repouso/observação indiferenciado (URGÊNCIA/EMERGÊNCIA)
+QTLEIT09;bigint;Quantidade de equipos de odontologia (URGÊNCIA/EMERGÊNCIA)
+QTLEIT19;bigint;Quantidade de leitos de repouso/observação feminino (ATEND. AMBULATORIAL)
+QTLEIT20;bigint;Quantidade de leitos de repouso/observação masculino (ATEND. AMBULATORIAL)
+QTLEIT21;bigint;Quantidade de leitos de repouso/observação pediátrico (ATEND. AMBULATORIAL)
+QTLEIT22;bigint;Quantidade de leitos de repouso/observação indiferenciado (ATEND. AMBULATORIAL)
+QTLEIT23;bigint;Quantidade de equipos de odontologia (ATEND. AMBULATORIAL)
+QTLEIT32;bigint;Quantidade de leitos de recuperação (CENTRO CIRÚRGICO)
+QTLEIT34;bigint;Quantidade de leitos de pré parto (CENTRO OBSTÉTRICO)
+QTLEIT38;bigint;Quantidade de leitos de recém-nascido normal (UNID NEONATAL)
+QTLEIT39;bigint;Quantidade de leitos de recém-nascido patológico (UNID NEONATAL)
+QTLEIT40;bigint;Quantidade de leitos de alojamento conjunto (UNID NEONATAL)
+CENTRNEO;bigint;"Indica a existência de INSTALAÇÃO FÍSICA de ATENDIMENTO HOSPITALAR- UNIDADE NEONATAL para este CNES, onde:
+1-sim 0-não"
+ATENDHOS;bigint;"Indica a existência de INSTALAÇÃO FÍSICA de ATENDIMENTO HOSPITALAR para este CNES, onde:
+1-sim 0-não"
+SERAP01P;bigint;Serviço de apoio S.A.M.E. ou S.P.P. próprio, onde: 1-sim 0-não
+SERAP01T;bigint;Serviço de apoio S.A.M.E. ou S.P.P.  terceirizado, onde: 1-sim 0-não
+SERAP02P;bigint;Serviço de apoio Serviço Social próprio, onde: 1-sim 0-não
+SERAP02T;bigint;Serviço de apoio Serviço Social terceirizado, onde: 1-sim 0-não
+SERAP03P;bigint;Serviço de apoio Farmácia próprio, onde: 1-sim 0-não
+SERAP03T;bigint;Serviço de apoio Farmácia terceirizado, onde: 1-sim 0-não
+SERAP04P;bigint;Serviço de apoio Esterilização de Materiais próprio, onde: 1-sim 0-não
+SERAP04T;bigint;Serviço de apoio Esterilização de Materiais terceirizado, onde: 1-sim 0-não
+SERAP05P;bigint;Serviço de apoio Nutrição/Dietética (S.N.D.) próprio, onde: 1-sim 0-não
+SERAP05T;bigint;Serviço de apoio Nutrição/Dietética (S.N.D.) terceirizado, onde: 1-sim 0-não
+SERAP06P;bigint;Serviço de apoio Lactário próprio, onde: 1-sim 0-não
+SERAP06T;bigint;Serviço de apoio Lactário terceirizado, onde: 1-sim 0-não
+SERAP07P;bigint;Serviço de apoio Banco De Leite próprio, onde: 1-sim 0-não
+SERAP07T;bigint;Serviço de apoio Banco De Leite terceirizado, onde: 1-sim 0-não
+SERAP08P;bigint;Serviço de apoio Lavanderia próprio, onde: 1-sim 0-não
+SERAP08T;bigint;Serviço de apoio Lavanderia terceirizado, onde: 1-sim 0-não
+SERAP09P;bigint;Serviço de apoio Manutenção de Equipamento próprio, onde: 1-sim 0-não
+SERAP09T;bigint;Serviço de apoio Manutenção de Equipamento terceirizado, onde: 1-sim 0-não
+SERAP10P;bigint;Serviço de apoio Ambulância próprio, onde: 1-sim 0-não
+SERAP10T;bigint;Serviço de apoio Ambulância terceirizado, onde: 1-sim 0-não
+SERAP11P;bigint;Serviço de apoio Necrotério próprio, onde: 1-sim 0-não
+SERAP11T;bigint;Serviço de apoio Necrotério terceirizado, onde: 1-sim 0-não
+SERAPOIO;bigint;Indica a existência de algum serviço de apoio para este CNES, onde: 1-sim 0-não
+RES_BIOL;bigint;Existe coleta de resíduo biológico, onde: 1-sim 0-não
+RES_QUIM;bigint;Existe coleta de resíduo químico, onde: 1-sim 0-não
+RES_RADI;bigint;"Existe coleta de rejeitos radioativos, onde: 1-sim 0-não
+0-não"
+RES_COMU;bigint;Existe coleta de rejeitos comum, onde: 1-sim 0-não
+COLETRES;bigint;Indica a existência de alguma coleta de resíduo para este CNES, onde: 1-sim 0-não
+COMISS01;bigint;Existe comissão de ETICA MEDICA, onde: 1-sim 0-não
+COMISS02;bigint;Existe comissão de ETICA DE ENFERMAGEM, onde: 1-sim 0-não
+COMISS03;bigint;Existe comissão de FARMÁCIA E TERAPÊUTICA, onde: 1-sim 0-não
+COMISS04;bigint;Existe comissão de CONTROLE DE INFECÇÃO HOSPITALAR, onde: 1-sim 0-não
+COMISS05;bigint;Existe comissão de APROPRIAÇÃO DE CUSTOS, onde: 1-sim 0-não
+COMISS06;bigint;Existe comissão de CIPA, onde: 1-sim 0-não
+COMISS07;bigint;Existe comissão de REVISÃO DE PRONTUÁRIOS, onde: 1-sim 0-não
+COMISS08;bigint;"Existe comissão de REVISAO DE DOCUMENTACAO MEDICA E ESTATISTICA,
+onde:
+1-sim 0-não"
+COMISS09;bigint;Existe comissão de ANALISE DE OBITOS E BIOPISIAS, onde: 1-sim 0-não
+COMISS10;bigint;Existe comissão de INVESTIGACAO EPIDEMIOLOGICA, onde: 1-sim 0-não
+COMISS11;bigint;Existe comissão de NOTIFICACAO DE DOENCAS, onde: 1-sim 0-não
+COMISS12;bigint;Existe comissão de CONTROLE DE ZOONOSES E VETORES, onde: 1-sim 0-não
+COMISSAO;bigint;Indica a existência de alguma comissão para este CNES, onde: 1-sim 0-não
+AP01CV01;bigint;Atendimento prestado INTERNAÇÃO/Convenio SUS, onde: 1-sim 0-não
+AP01CV02;bigint;Atendimento prestado INTERNAÇÃO/Convenio PARTICULAR, onde: 1-sim 0-não
+AP01CV05;bigint;"Atendimento prestado INTERNAÇÃO/ Convenio PLANO de SAUDE PUBLICO, onde:
+1-sim 0-não"
+AP01CV06;bigint;"Atendimento prestado INTERNAÇÃO/Convenio PLANO de SAUDE PRIVADO, onde:
+1-sim 0-não"
+AP01CV03;bigint;"Atendimento prestado INTERNAÇÃO/Convenio PLANO-SEGURO PROPRIO, onde:
+1-sim 0-não"
+AP01CV04;bigint;"Atendimento prestado INTERNAÇÃO/Convenio PLANO-SEGURO TERCEIRO, onde:
+1-sim 0-não"
+AP02CV01;bigint;"Atendimento prestado ATENDIMENTO AMBULATORIAL/Convenio SUS, onde:
+1-sim 0-não"
+AP02CV02;bigint;"Atendimento prestado ATENDIMENTO AMBULATORIAL/Convenio PARTICULAR, onde:
+1-sim 0-não"
+AP02CV05;bigint;"Atendimento prestado ATENDIMENTO AMBULATORIAL/Convenio PLANO de SAUDE PUBLICO, onde:
+1-sim 0-não"
+AP02CV06;bigint;"Atendimento prestado ATENDIMENTO AMBULATORIAL/Convenio PLANO de SAUDE PRIVADO, onde:
+1-sim 0-não"
+AP02CV03;bigint;"Atendimento prestado ATENDIMENTO AMBULATORIAL/Convenio PLANO- SEGURO PROPRIO, onde:
+1-sim 0-não"
+AP02CV04;bigint;"Atendimento prestado ATENDIMENTO AMBULATORIAL/Convenio PLANO- SEGURO TERCEIRO, onde:
+1-sim 0-não"
+AP03CV01;bigint;Atendimento prestado SADT/ Convenio SUS, onde: 1-sim 0-não
+AP03CV02;bigint;Atendimento prestado SADT/ Convenio PARTICULAR, onde: 1-sim 0-não
+AP03CV05;bigint;Atendimento prestado SADT/ Convenio PLANO de SAUDE PUBLICO, onde: 1-sim 0-não
+AP03CV06;bigint;Atendimento prestado SADT/ Convenio PLANO de SAUDE PRIVADO, onde: 1-sim 0-não
+AP03CV03;bigint;Atendimento prestado SADT/ Convenio PLANO-SEGURO PROPRIO, onde: 1-sim 0-não
+AP03CV04;bigint;Atendimento prestado SADT/ Convenio PLANO-SEGURO TERCEIRO, onde: 1-sim 0-não
+AP04CV01;bigint;Atendimento prestado URGENCIA/ Convenio SUS, onde: 1-sim 0-não
+AP04CV02;bigint;Atendimento prestado URGENCIA/ Convenio PARTICULAR, onde: 1-sim 0-não
+AP04CV05;bigint;"Atendimento prestado URGENCIA/ Convenio PLANO de SAUDE PUBLICO, onde:
+1-sim 0-não"
+AP04CV06;bigint;"Atendimento prestado URGENCIA/Convenio PLANO de SAUDE PRIVADO, onde:
+1-sim 0-não"
+AP04CV03;bigint;"Atendimento prestado URGENCIA/ Convenio PLANO-SEGURO PROPRIO, onde:
+1-sim 0-não"
+AP04CV04;bigint;"Atendimento prestado URGENCIA/ Convenio PLANO-SEGURO TERCEIRO, onde:
+1-sim 0-não"
+AP05CV01;bigint;Atendimento prestado OUTROS/ Convenio SUS,onde: 1-sim 0-não
+AP05CV02;bigint;Atendimento prestado OUTROS/Convenio PARTICULAR, onde: 1-sim 0-não
+AP05CV05;bigint;"Atendimento prestado OUTROS/Convenio PLANO de SAUDE PUBLICO, onde:
+1-sim 0-não"
+AP05CV06;bigint;"Atendimento prestado OUTROS/Convenio PLANO de SAUDE PRIVADO, onde:
+1-sim 0-não"
+AP05CV03;bigint;Atendimento prestado OUTROS/Convenio PLANO-SEGURO PROPRIO, onde: 1-sim 0-não
+AP05CV04;bigint;"Atendimento prestado OUTROS/Convenio PLANO-SEGURO TERCEIRO, onde:
+1-sim 0-não"
+AP06CV01;bigint;Atendimento prestado VIGILANCIA EM SAUDE/Convenio SUS, onde: 1-sim 0-não
+AP06CV02;bigint;"Atendimento prestado VIGILANCIA EM SAUDE/Convenio PARTICULAR, onde:
+1-sim 0-não"
+AP06CV05;bigint;"Atendimento prestado VIGILANCIA EM SAUDE/Convenio PLANO de SAUDE PUBLICO, onde:
+1-sim 0-não"
+AP06CV06;bigint;"Atendimento prestado VIGILANCIA EM SAUDE/Convenio PLANO de SAUDE PRIVADO, onde:
+1-sim 0-não"
+AP06CV03;bigint;"Atendimento prestado VIGILANCIA EM SAUDE/Convenio PLANO-SEGURO PROPRIO, onde:
+1-sim 0-não"
+AP06CV04;bigint;"Atendimento prestado VIGILANCIA EM SAUDE/Convenio PLANO-SEGURO TERCEIRO, onde:
+1-sim 0-não"
+AP07CV01;bigint;Atendimento prestado REGULACAO/Convenio SUS, onde: 1-sim 0-não
+AP07CV02;bigint;Atendimento prestado REGULACAO/Convenio PARTICULAR, onde: 1-sim 0-não
+AP07CV05;bigint;"Atendimento prestado REGULACAO/Convenio PLANO de SAUDE PUBLICO, onde:
+1-sim 0-não"
+AP07CV06;bigint;"Atendimento prestado REGULACAO/Convenio PLANO de SAUDE PRIVADO, onde:
+1-sim 0-não"
+AP07CV03;bigint;"Atendimento prestado REGULACAO/Convenio PLANO-SEGURO PROPRIO, onde:
+1-sim 0-não"
+AP07CV04;bigint;"Atendimento prestado REGULACAO/Convenio PLANO-SEGURO TERCEIRO, onde:
+1-sim 0-não"
+ATEND_PR;bigint;Indica a existência de algum atendimento prestado para este CNES, onde: 1-sim / 0-não
+DT_ATUAL;bigint;Ano e Mês de competência da atualização da informação pelo estabelecimento (AAAAMM)
+COMPETEN;text;Ano e Mês de competência da informação (AAAAMM)
+def_competen;text;Ano e Mês de competência da informação (AAAA/MM)
+ano_competen;text;Ano de competência da informação
+mes_competen;text;Mês de competência da informação
+NAT_JUR;text;Natureza Jurídica
+mun_MUNNOME;text;Nome (acentuado, maiúsculas e minúsculas) do Município (padrão DOS, página de código 850) do estabelecimento
+mun_MUNNOMEX;text;Nome (sem acentos, em maiúsculas) do Município do estabelecimento
+mun_AMAZONIA;text;Indica (S ou N) se o município do estabelecimento faz parte da Amazônia Legal (conforme IBGE)
+mun_FRONTEIRA;text;Indica (S ou N) se o município do estabelecimento faz parte da faixa de fronteira (conforme IBGE)
+mun_CAPITAL;text;Indica (S ou N) se o município do estabelecimento é capital da UF
+mun_MSAUDCOD;bigint;Código da Macrorregional de Saúde a que o Município do estabelecimento pertence
+mun_RSAUDCOD;bigint;Código da Regional de Saúde a que o Município do estabelecimento pertence
+mun_CSAUDCOD;bigint;Código da Microrregional de Saúde a que o Município do estabelecimento pertence
+mun_LATITUDE;float;Latitude da sede do Município do estabelecimento
+mun_LONGITUDE;float;Longitude da sede do Município do estabelecimento
+mun_ALTITUDE;bigint;Altitude, em metros, da sede do Município do estabelecimento
+mun_AREA;float;Área, em quilômetros quadrados, do Município do estabelecimento, segundo a Resolução 05, de 10/12/2002, do IBGE
+mun_codigo_adotado;bigint;Armazena o código atribuído ao município do estabelecimento, tratando os casos em que múltiplos códigos tenham sido utilizados para um mesmo município ao longo do tempo
+uf_SIGLA_UF;text;Sigla da unidade da federação do estabelecimento
+uf_CODIGO_UF;bigint;Código IBGE da Unidade da Federação do estabelecimento
+uf_NOME_UF;text;Nome da unidade da federação do estabelecimento
+mun_coordenadas;text;Coordenadas do município do estabelecimento
