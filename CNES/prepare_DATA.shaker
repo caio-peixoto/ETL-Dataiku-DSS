@@ -1,0 +1,1210 @@
+{
+  "columnsSelection": {
+    "mode": "ALL"
+  },
+  "explorationSampling": {
+    "_refreshTrigger": 1,
+    "selection": {
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "latestPartitionsN": 1,
+      "maxRecords": 10000,
+      "ordering": {
+        "rules": [],
+        "enabled": false
+      },
+      "withinFirstN": -1,
+      "partitionSelectionMethod": "ALL",
+      "maxStoredBytes": 104857600,
+      "targetRatio": 0.02,
+      "maxReadUncompressedBytes": -1,
+      "samplingMethod": "RANDOM_FIXED_NB_EXACT"
+    },
+    "autoRefreshSample": false
+  },
+  "explorationFilters": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "name": "Tratando dados inválidos",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "strval(\"CNES\")",
+            "column": "CNES"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "if(PF_PJ!\u003d1 \u0026\u0026 PF_PJ!\u003d3,null,PF_PJ)",
+            "column": "PF_PJ"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "if(NIV_DEP!\u003d1 \u0026\u0026 NIV_DEP!\u003d3,null,NIV_DEP)",
+            "column": "NIV_DEP"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "if(ORGEXPED!\u003d1 \u0026\u0026 ORGEXPED!\u003d2,null,ORGEXPED)",
+            "column": "ORGEXPED"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "if(AV_ACRED!\u003d1 \u0026\u0026 AV_ACRED!\u003d2,null,AV_ACRED)",
+            "column": "AV_ACRED"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "if(AV_PNASS!\u003d1 \u0026\u0026 AV_PNASS!\u003d2,null,AV_PNASS)",
+            "column": "AV_PNASS"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    cell \u003d row[\"REGSAUDE\"]\n    try:\n        val \u003d str(cell)\n        return cell\n    except:\n        return None\n\n#if(isError(isNumeric(toNumber(QTDFILMORT))),null,if(isNumeric(toNumber(QTDFILMORT)),QTDFILMORT,null))",
+            "column": "REGSAUDE",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    cell \u003d row[\"MICR_REG\"]\n    try:\n        val \u003d str(cell)\n        return cell\n    except:\n        return None\n\n#if(isError(isNumeric(toNumber(QTDFILMORT))),null,if(isNumeric(toNumber(QTDFILMORT)),QTDFILMORT,null))",
+            "column": "MICR_REG",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    cell \u003d row[\"DISTRSAN\"]\n    try:\n        val \u003d str(cell)\n        return cell\n    except:\n        return None\n\n#if(isError(isNumeric(toNumber(QTDFILMORT))),null,if(isNumeric(toNumber(QTDFILMORT)),QTDFILMORT,null))",
+            "column": "DISTRSAN",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    cell \u003d row[\"DISTRADM\"]\n    try:\n        val \u003d str(cell)\n        return cell\n    except:\n        return None\n\n#if(isError(isNumeric(toNumber(QTDFILMORT))),null,if(isNumeric(toNumber(QTDFILMORT)),QTDFILMORT,null))",
+            "column": "DISTRADM",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "Enriquecendo os dados",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_clasaval",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "ACREDITADO NO NÍV.1"
+              },
+              {
+                "from": "2",
+                "to": "ACREDITADO NO NÍV.2"
+              },
+              {
+                "from": "3",
+                "to": "ACREDITADO NO NÍV.3"
+              },
+              {
+                "from": "0",
+                "to": "NÃO ATENDEU AOS PADRÕES MÍNIMOS"
+              },
+              {
+                "from": "9",
+                "to": "Nível Avaliação não informado"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "CLASAVAL"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_tp_prest",
+            "mapping": [
+              {
+                "from": "30",
+                "to": "PUBLICO FEDERAL"
+              },
+              {
+                "from": "40",
+                "to": "PUBLICO ESTADUAL"
+              },
+              {
+                "from": "50",
+                "to": "PUBLICO MUNICIPAL"
+              },
+              {
+                "from": "61",
+                "to": "FILANTROPICO COM CNAS VALIDO"
+              },
+              {
+                "from": "80",
+                "to": "SINDICATO"
+              },
+              {
+                "from": "20",
+                "to": "PRIVADO COM FINS LUCRATIVOS"
+              },
+              {
+                "from": "22",
+                "to": "PRIVADO OPTANTE PELO SIMPLES"
+              },
+              {
+                "from": "60",
+                "to": "PRIVADO SEM FINS LUCRATIVOS"
+              },
+              {
+                "from": "99",
+                "to": "TIPO DE PRESTADOR NÃO INFORMADO"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "TP_PREST"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_niv_hier",
+            "mapping": [
+              {
+                "from": "01",
+                "to": "NH 1-PAB-PABA"
+              },
+              {
+                "from": "02",
+                "to": "NH 2-Média M1"
+              },
+              {
+                "from": "03",
+                "to": "NH 3-Média M2 e M3"
+              },
+              {
+                "from": "04",
+                "to": "NH 4-AltaComplex.Ambul."
+              },
+              {
+                "from": "05",
+                "to": "NH 5-Baixa M1 e M2"
+              },
+              {
+                "from": "06",
+                "to": "NH 6-Média M2 e M3"
+              },
+              {
+                "from": "07",
+                "to": "NH 7-Média M3"
+              },
+              {
+                "from": "08",
+                "to": "NH 8-AltaCompl.Hos/Amb."
+              },
+              {
+                "from": "00",
+                "to": "NH não informado"
+              },
+              {
+                "from": "99",
+                "to": "NH não informado"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "NIV_HIER"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "TP_ESTAB",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "def_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "TP_UNID",
+            "copyColumns": [
+              "DESCRICAO"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "TP_ESTAB",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "def_DESCRICAO",
+                "to": "def_tp_unid"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnReorder",
+          "params": {
+            "referenceColumn": "TP_UNID",
+            "columns": [
+              "def_tp_unid"
+            ],
+            "reorderAction": "AFTER_COLUMN",
+            "appliesTo": "SINGLE_COLUMN"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_clientel",
+            "mapping": [
+              {
+                "from": "01",
+                "to": "Atendimento de demanda espontânea"
+              },
+              {
+                "from": "02",
+                "to": "Atendimento de demanda referenciada"
+              },
+              {
+                "from": "03",
+                "to": "Atendimento de demanda espontânea e referenciada"
+              },
+              {
+                "from": "00",
+                "to": "Fluxo de Clientela não exigido"
+              },
+              {
+                "from": "99",
+                "to": "Fluxo de Clientela não informado"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "CLIENTEL"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_natureza",
+            "mapping": [
+              {
+                "from": "01",
+                "to": "Administração Direta da Saúde (MS, SES, e SMS)"
+              },
+              {
+                "from": "02",
+                "to": "Adm Direta outros orgãos (MEX, MEx, Marinha,...)"
+              },
+              {
+                "from": "03",
+                "to": "Adm Indireta - Autarquias"
+              },
+              {
+                "from": "04",
+                "to": "Adm Indireta - Fundação Pública"
+              },
+              {
+                "from": "05",
+                "to": "Adm Indireta - Empresa Pública"
+              },
+              {
+                "from": "06",
+                "to": "Adm Indireta - Organização Social Pública"
+              },
+              {
+                "from": "07",
+                "to": "Empresa Privada"
+              },
+              {
+                "from": "08",
+                "to": "Fundação Privada"
+              },
+              {
+                "from": "09",
+                "to": "Cooperativa"
+              },
+              {
+                "from": "10",
+                "to": "Serviço Social Autônomo"
+              },
+              {
+                "from": "11",
+                "to": "Entidade Beneficente SEM fins lucrativos"
+              },
+              {
+                "from": "12",
+                "to": "Economia MIsta"
+              },
+              {
+                "from": "13",
+                "to": "Sindicato"
+              },
+              {
+                "from": "00",
+                "to": "Natureza inexistente"
+              },
+              {
+                "from": "0",
+                "to": "Natureza inexistente"
+              },
+              {
+                "from": "99",
+                "to": "Natureza não informada"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "NATUREZA"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_retencao",
+            "mapping": [
+              {
+                "from": "10",
+                "to": "Estabelecimento PUBLICO"
+              },
+              {
+                "from": "11",
+                "to": "Estabelecimento FILANTROPICO"
+              },
+              {
+                "from": "12",
+                "to": "Estabelecimento SEM FINS LUCRATIVOS"
+              },
+              {
+                "from": "13",
+                "to": "Estabelecimento PRIVADO LUCRATIVA SIMPLES"
+              },
+              {
+                "from": "14",
+                "to": "Estabelecimento PRIVADO LUCRATIVA"
+              },
+              {
+                "from": "15",
+                "to": "Estabelecimento SINDICAL"
+              },
+              {
+                "from": "16",
+                "to": "Estabelecimento PESSOA FISICA"
+              },
+              {
+                "from": "00",
+                "to": "Retenção estab. não  informada"
+              },
+              {
+                "from": "99",
+                "to": "Retenção estab. não  informada"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "RETENCAO"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_cod_ir",
+            "mapping": [
+              {
+                "from": "10",
+                "to": "Estabelecimento PUBLICO"
+              },
+              {
+                "from": "11",
+                "to": "Estabelecimento FILANTROPICO"
+              },
+              {
+                "from": "12",
+                "to": "Estabelecimento SEM FINS LUCRATIVOS"
+              },
+              {
+                "from": "13",
+                "to": "Estabelecimento PRIVADO LUCRATIVA SIMPLES"
+              },
+              {
+                "from": "14",
+                "to": "Estabelecimento PRIVADO LUCRATIVA"
+              },
+              {
+                "from": "15",
+                "to": "Estabelecimento SINDICAL"
+              },
+              {
+                "from": "16",
+                "to": "Estabelecimento PESSOA FISICA"
+              },
+              {
+                "from": "19",
+                "to": "Estabelecimento Ret.Manten.código 19"
+              },
+              {
+                "from": "IR",
+                "to": "Estabelecimento Ret.Manten.código IR"
+              },
+              {
+                "from": "00",
+                "to": "Retenção de tributos da mantenedora não informada"
+              },
+              {
+                "from": "99",
+                "to": "Retenção de tributos da mantenedora não informada"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "COD_IR"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_atividad",
+            "mapping": [
+              {
+                "from": "01",
+                "to": "Unidade Universitária"
+              },
+              {
+                "from": "02",
+                "to": "Unidade Escola Superior Isolada"
+              },
+              {
+                "from": "03",
+                "to": "Unidade Auxiliar de Ensino"
+              },
+              {
+                "from": "04",
+                "to": "Unidade SEM atividade de Ensino"
+              },
+              {
+                "from": "05",
+                "to": "Hospital de Ensino"
+              },
+              {
+                "from": "99",
+                "to": "Atividade Ensino não informada"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "ATIVIDAD"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_esfera_a",
+            "mapping": [
+              {
+                "from": "01",
+                "to": "FEDERAL"
+              },
+              {
+                "from": "02",
+                "to": "ESTADUAL"
+              },
+              {
+                "from": "03",
+                "to": "MUNICIPAL"
+              },
+              {
+                "from": "04",
+                "to": "PRIVADA"
+              },
+              {
+                "from": "99",
+                "to": "Esfera não informada"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "ESFERA_A"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_tpgestao",
+            "mapping": [
+              {
+                "from": "D",
+                "to": "DUPLA"
+              },
+              {
+                "from": "E",
+                "to": "ESTADUAL"
+              },
+              {
+                "from": "M",
+                "to": "MUNICIPAL"
+              },
+              {
+                "from": "S",
+                "to": "SEM GESTÃO"
+              },
+              {
+                "from": "Z",
+                "to": "SEM GESTÃO"
+              },
+              {
+                "from": "-Z",
+                "to": "NÃO INFORMADO"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "TPGESTAO"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_turno_at",
+            "mapping": [
+              {
+                "from": "01",
+                "to": "ATENDIMENTO SOMENTE PELA MANHA"
+              },
+              {
+                "from": "02",
+                "to": "ATENDIMENTO SOMENTE A TARDE"
+              },
+              {
+                "from": "03",
+                "to": "ATENDIMENTOS NOS TURNOS DA MANHA E A TARDE"
+              },
+              {
+                "from": "04",
+                "to": "ATENDIMENTO NOS TURNOS DA MANHA, TARDE E NOITE"
+              },
+              {
+                "from": "05",
+                "to": "ATENDIMENTO COM TURNOS INTERMITENTES"
+              },
+              {
+                "from": "06",
+                "to": "ATENDIMENTO CONTINUO DE 24 HORAS/DIA (PLANTAO: INCLUI SABADOS DOMINGOS E FERIADOS)"
+              },
+              {
+                "from": "07",
+                "to": "ATENDIMENTO SOMENTE A NOITE"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "TURNO_AT"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_pf_pj",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "Física"
+              },
+              {
+                "from": "3",
+                "to": "Jurídica"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "PF_PJ"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_niv_dep",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "Individual"
+              },
+              {
+                "from": "3",
+                "to": "Mantida"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "NIV_DEP"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_orgexped",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "SES"
+              },
+              {
+                "from": "2",
+                "to": "SMS"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "ORGEXPED"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_av_acred",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "Sim"
+              },
+              {
+                "from": "2",
+                "to": "Não"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "AV_ACRED"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_av_pnass",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "Sim"
+              },
+              {
+                "from": "2",
+                "to": "Não"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "AV_PNASS"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "Enriquecendo com dados de múnicipio",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnCopier",
+          "params": {
+            "outputColumn": "cod_mun",
+            "inputColumn": "CODUFMUN"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "StringTransformer",
+          "params": {
+            "mode": "TRUNCATE",
+            "columns": [
+              "cod_mun"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "truncate_limit": 6
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "MUNCOD",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "mun_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "cod_mun",
+            "copyColumns": [
+              "MUNCOD",
+              "MUNNOME",
+              "MUNNOMEX",
+              "AMAZONIA",
+              "FRONTEIRA",
+              "CAPITAL",
+              "UFCOD",
+              "MSAUDCOD",
+              "RSAUDCOD",
+              "CSAUDCOD",
+              "LATITUDE",
+              "LONGITUDE",
+              "ALTITUDE",
+              "AREA",
+              "codigo_adotado"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "municipios",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "Enriquecendo com dados de UF",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "CODIGO",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "uf_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "mun_UFCOD",
+            "copyColumns": [
+              "SIGLA_UF",
+              "CODIGO",
+              "DESCRICAO"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "ufs",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "uf_CODIGO",
+                "to": "uf_CODIGO_UF"
+              },
+              {
+                "from": "uf_DESCRICAO",
+                "to": "uf_NOME_UF"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "Removendo colunas desnecessárias",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnsSelector",
+          "params": {
+            "columns": [
+              "cod_mun",
+              "mun_MUNCOD",
+              "mun_UFCOD"
+            ],
+            "keep": false,
+            "appliesTo": "COLUMNS"
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "Enriquecendo com dados de datas",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "if(isError(asDate(strval(\"COMPETEN\"),\"yyyyMM\")),null,asDate(strval(\"COMPETEN\"),\"yyyyMM\"))",
+            "column": "competen"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    if row[\"COMPETEN\"]\u003d\u003dNone:\n        return None\n    \n    try:\n        str_ano_comp \u003d str(row[\"COMPETEN\"])[:4]\n        int_ano_comp \u003d int(str_ano_comp)\n    except:\n        return None\n    \n    if len(str_ano_comp)\u003c\u003e4: #campo com dados inválidos\n        return None\n    \n    if (int_ano_comp \u003c int(dss_variables[\"first_year\"])) | (int_ano_comp \u003e int(dss_variables[\"last_year\"])):\n        return None\n    else:\n        return str_ano_comp",
+            "column": "ano_competen",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    if row[\"COMPETEN\"]\u003d\u003dNone:\n        return None\n    \n    try:\n        str_mes_comp \u003d str(row[\"COMPETEN\"])[4:]\n        int_mes_comp \u003d int(str_mes_comp)\n    except:\n        return None\n    \n    if len(str_mes_comp)\u003c\u003e2: #campo com dados inválidos\n        return None\n    \n    return str_mes_comp",
+            "column": "mes_competen",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "def process(row):\n    if row[\"ano_competen\"] is None or row[\"mes_competen\"] is None:\n        return None\n    \n    try:\n        ano \u003d str(row[\"ano_competen\"])\n        mes \u003d str(row[\"mes_competen\"])\n        f_ano \u003d float(ano)\n        f_mes \u003d float(mes)\n    except:\n        return None\n    \n    # Cria coluna com ano e mes de competencia \"ano/mes\"\n    return ano+\"/\"+mes",
+            "column": "def_competen",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnReorder",
+          "params": {
+            "referenceColumn": "COMPETEN",
+            "columns": [
+              "ano_competen",
+              "mes_competen",
+              "def_competen"
+            ],
+            "reorderAction": "AFTER_COLUMN",
+            "appliesTo": "COLUMNS"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnsSelector",
+          "params": {
+            "columns": [
+              "competen"
+            ],
+            "keep": false,
+            "appliesTo": "COLUMNS"
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "Enriquecendo com coordenadas",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "def process(row):\n    if row[\"mun_LATITUDE\"] is None or row[\"mun_LONGITUDE\"] is None:\n        return None\n    \n    try:\n        lat \u003d str(row[\"mun_LATITUDE\"])\n        long \u003d str(row[\"mun_LONGITUDE\"])\n        f_lat \u003d float(lat)\n        f_long \u003d float(long)\n    except:\n        return None\n    \n    return lat+\",\"+long\n\n# Cria coluna com coordenadas \"lat,lon\"\n# https://www.elastic.co/guide/en/elasticsearch/reference/current/geo-point.html \n# Geo-point expressed as a string with the format: \"lat,lon\"",
+            "column": "mun_coordenadas",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    }
+  ],
+  "maxProcessedMemTableBytes": -1,
+  "previewMode": "ALL_ROWS",
+  "vizSampling": {
+    "_refreshTrigger": 0,
+    "autoRefreshSample": false
+  },
+  "analysisColumnData": {},
+  "sorting": [],
+  "globalSearchQuery": "",
+  "coloring": {
+    "scheme": "MEANING_AND_STATUS",
+    "individualColumns": [],
+    "valueColoringMode": "HASH"
+  }
+}
