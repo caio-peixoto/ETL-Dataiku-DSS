@@ -1,0 +1,6098 @@
+{
+  "columnsSelection": {
+    "mode": "SELECT",
+    "list": [
+      {
+        "d": true,
+        "name": "UF_ZI"
+      },
+      {
+        "d": true,
+        "name": "ANO_CMPT"
+      },
+      {
+        "d": true,
+        "name": "MES_CMPT"
+      },
+      {
+        "d": true,
+        "name": "ESPEC"
+      },
+      {
+        "d": true,
+        "name": "CGC_HOSP"
+      },
+      {
+        "d": true,
+        "name": "N_AIH"
+      },
+      {
+        "d": true,
+        "name": "def_identific"
+      },
+      {
+        "d": true,
+        "name": "def_n_aih"
+      },
+      {
+        "d": true,
+        "name": "IDENT"
+      },
+      {
+        "d": true,
+        "name": "def_ident"
+      },
+      {
+        "d": true,
+        "name": "CEP"
+      },
+      {
+        "d": true,
+        "name": "MUNIC_RES"
+      },
+      {
+        "d": true,
+        "name": "cod_uf_res"
+      },
+      {
+        "d": true,
+        "name": "NASC"
+      },
+      {
+        "d": true,
+        "name": "SEXO"
+      },
+      {
+        "d": true,
+        "name": "def_sexo"
+      },
+      {
+        "d": true,
+        "name": "UTI_MES_IN"
+      },
+      {
+        "d": true,
+        "name": "UTI_MES_AN"
+      },
+      {
+        "d": true,
+        "name": "UTI_MES_AL"
+      },
+      {
+        "d": true,
+        "name": "UTI_MES_TO"
+      },
+      {
+        "d": true,
+        "name": "def_uti_mes_to"
+      },
+      {
+        "d": true,
+        "name": "def_diarias_uti"
+      },
+      {
+        "d": true,
+        "name": "MARCA_UTI"
+      },
+      {
+        "d": true,
+        "name": "def_marca_uti"
+      },
+      {
+        "d": true,
+        "name": "UTI_INT_IN"
+      },
+      {
+        "d": true,
+        "name": "UTI_INT_AN"
+      },
+      {
+        "d": true,
+        "name": "UTI_INT_AL"
+      },
+      {
+        "d": true,
+        "name": "UTI_INT_TO"
+      },
+      {
+        "d": true,
+        "name": "DIAR_ACOM"
+      },
+      {
+        "d": true,
+        "name": "QT_DIARIAS"
+      },
+      {
+        "d": true,
+        "name": "PROC_SOLIC"
+      },
+      {
+        "d": true,
+        "name": "PROC_REA"
+      },
+      {
+        "d": true,
+        "name": "VAL_SH"
+      },
+      {
+        "d": true,
+        "name": "VAL_SP"
+      },
+      {
+        "d": true,
+        "name": "VAL_SADT"
+      },
+      {
+        "d": true,
+        "name": "VAL_RN"
+      },
+      {
+        "d": true,
+        "name": "VAL_ACOMP"
+      },
+      {
+        "d": true,
+        "name": "VAL_ORTP"
+      },
+      {
+        "d": true,
+        "name": "VAL_SANGUE"
+      },
+      {
+        "d": true,
+        "name": "VAL_SADTSR"
+      },
+      {
+        "d": true,
+        "name": "VAL_TRANSP"
+      },
+      {
+        "d": true,
+        "name": "VAL_OBSANG"
+      },
+      {
+        "d": true,
+        "name": "VAL_PED1AC"
+      },
+      {
+        "d": true,
+        "name": "VAL_TOT"
+      },
+      {
+        "d": true,
+        "name": "VAL_UTI"
+      },
+      {
+        "d": true,
+        "name": "US_TOT"
+      },
+      {
+        "d": true,
+        "name": "DT_INTER"
+      },
+      {
+        "d": true,
+        "name": "DT_SAIDA"
+      },
+      {
+        "d": true,
+        "name": "DIAG_PRINC"
+      },
+      {
+        "d": true,
+        "name": "DIAG_SECUN"
+      },
+      {
+        "d": true,
+        "name": "COBRANCA"
+      },
+      {
+        "d": true,
+        "name": "def_cobranca"
+      },
+      {
+        "d": true,
+        "name": "NATUREZA"
+      },
+      {
+        "d": true,
+        "name": "def_regime"
+      },
+      {
+        "d": true,
+        "name": "NAT_JUR"
+      },
+      {
+        "d": true,
+        "name": "def_nat_jur"
+      },
+      {
+        "d": true,
+        "name": "GESTAO"
+      },
+      {
+        "d": true,
+        "name": "def_gestao"
+      },
+      {
+        "d": true,
+        "name": "RUBRICA"
+      },
+      {
+        "d": true,
+        "name": "IND_VDRL"
+      },
+      {
+        "d": true,
+        "name": "def_ind_vdrl"
+      },
+      {
+        "d": true,
+        "name": "MUNIC_MOV"
+      },
+      {
+        "d": true,
+        "name": "cod_uf_mov"
+      },
+      {
+        "d": true,
+        "name": "COD_IDADE"
+      },
+      {
+        "d": true,
+        "name": "def_cod_idade"
+      },
+      {
+        "d": true,
+        "name": "IDADE"
+      },
+      {
+        "d": true,
+        "name": "DIAS_PERM"
+      },
+      {
+        "d": true,
+        "name": "def_dias_perm"
+      },
+      {
+        "d": true,
+        "name": "MORTE"
+      },
+      {
+        "d": true,
+        "name": "def_morte"
+      },
+      {
+        "d": true,
+        "name": "NACIONAL"
+      },
+      {
+        "d": true,
+        "name": "NUM_PROC"
+      },
+      {
+        "d": true,
+        "name": "CAR_INT"
+      },
+      {
+        "d": true,
+        "name": "def_car_int"
+      },
+      {
+        "d": true,
+        "name": "TOT_PT_SP"
+      },
+      {
+        "d": true,
+        "name": "CPF_AUT"
+      },
+      {
+        "d": true,
+        "name": "HOMONIMO"
+      },
+      {
+        "d": true,
+        "name": "def_homonimo"
+      },
+      {
+        "d": true,
+        "name": "NUM_FILHOS"
+      },
+      {
+        "d": true,
+        "name": "def_num_filhos"
+      },
+      {
+        "d": true,
+        "name": "INSTRU"
+      },
+      {
+        "d": true,
+        "name": "def_instru"
+      },
+      {
+        "d": true,
+        "name": "CID_NOTIF"
+      },
+      {
+        "d": true,
+        "name": "CONTRACEP1"
+      },
+      {
+        "d": true,
+        "name": "def_contracep1"
+      },
+      {
+        "d": true,
+        "name": "CONTRACEP2"
+      },
+      {
+        "d": true,
+        "name": "def_contracep2"
+      },
+      {
+        "d": true,
+        "name": "GESTRISCO"
+      },
+      {
+        "d": true,
+        "name": "def_gestrisco"
+      },
+      {
+        "d": true,
+        "name": "INSC_PN"
+      },
+      {
+        "d": true,
+        "name": "SEQ_AIH5"
+      },
+      {
+        "d": true,
+        "name": "def_seq_aih5"
+      },
+      {
+        "d": true,
+        "name": "CBOR"
+      },
+      {
+        "d": true,
+        "name": "CNAER"
+      },
+      {
+        "d": true,
+        "name": "VINCPREV"
+      },
+      {
+        "d": true,
+        "name": "def_vincprev"
+      },
+      {
+        "d": true,
+        "name": "GESTOR_COD"
+      },
+      {
+        "d": true,
+        "name": "GESTOR_TP"
+      },
+      {
+        "d": true,
+        "name": "GESTOR_CPF"
+      },
+      {
+        "d": true,
+        "name": "GESTOR_DT"
+      },
+      {
+        "d": true,
+        "name": "CNES"
+      },
+      {
+        "d": true,
+        "name": "CNPJ_MANT"
+      },
+      {
+        "d": true,
+        "name": "INFEHOSP"
+      },
+      {
+        "d": true,
+        "name": "def_infehosp"
+      },
+      {
+        "d": true,
+        "name": "CID_ASSO"
+      },
+      {
+        "d": true,
+        "name": "CID_MORTE"
+      },
+      {
+        "d": true,
+        "name": "COMPLEX"
+      },
+      {
+        "d": true,
+        "name": "def_complex"
+      },
+      {
+        "d": true,
+        "name": "FINANC"
+      },
+      {
+        "d": true,
+        "name": "def_financ"
+      },
+      {
+        "d": true,
+        "name": "FAEC_TP"
+      },
+      {
+        "d": true,
+        "name": "def_faec_tp"
+      },
+      {
+        "d": true,
+        "name": "REGCT"
+      },
+      {
+        "d": true,
+        "name": "def_regct"
+      },
+      {
+        "d": true,
+        "name": "RACA_COR"
+      },
+      {
+        "d": true,
+        "name": "def_raca_cor"
+      },
+      {
+        "d": true,
+        "name": "ETNIA"
+      },
+      {
+        "d": true,
+        "name": "SEQUENCIA"
+      },
+      {
+        "d": true,
+        "name": "REMESSA"
+      },
+      {
+        "d": true,
+        "name": "AUD_JUST"
+      },
+      {
+        "d": true,
+        "name": "SIS_JUST"
+      },
+      {
+        "d": true,
+        "name": "VAL_SH_FED"
+      },
+      {
+        "d": true,
+        "name": "VAL_SP_FED"
+      },
+      {
+        "d": true,
+        "name": "VAL_SH_GES"
+      },
+      {
+        "d": true,
+        "name": "VAL_SP_GES"
+      },
+      {
+        "d": true,
+        "name": "VAL_UCI"
+      },
+      {
+        "d": true,
+        "name": "MARCA_UCI"
+      },
+      {
+        "d": true,
+        "name": "def_marca_uci"
+      },
+      {
+        "d": true,
+        "name": "DIAGSEC1"
+      },
+      {
+        "d": true,
+        "name": "DIAGSEC2"
+      },
+      {
+        "d": true,
+        "name": "DIAGSEC3"
+      },
+      {
+        "d": true,
+        "name": "DIAGSEC4"
+      },
+      {
+        "d": true,
+        "name": "DIAGSEC5"
+      },
+      {
+        "d": true,
+        "name": "DIAGSEC6"
+      },
+      {
+        "d": true,
+        "name": "DIAGSEC7"
+      },
+      {
+        "d": true,
+        "name": "DIAGSEC8"
+      },
+      {
+        "d": true,
+        "name": "DIAGSEC9"
+      },
+      {
+        "d": true,
+        "name": "TPDISEC1"
+      },
+      {
+        "d": true,
+        "name": "def_tpdisec1"
+      },
+      {
+        "d": true,
+        "name": "TPDISEC2"
+      },
+      {
+        "d": true,
+        "name": "def_tpdisec2"
+      },
+      {
+        "d": true,
+        "name": "TPDISEC3"
+      },
+      {
+        "d": true,
+        "name": "def_tpdisec3"
+      },
+      {
+        "d": true,
+        "name": "TPDISEC4"
+      },
+      {
+        "d": true,
+        "name": "def_tpdisec4"
+      },
+      {
+        "d": true,
+        "name": "TPDISEC5"
+      },
+      {
+        "d": true,
+        "name": "def_tpdisec5"
+      },
+      {
+        "d": true,
+        "name": "TPDISEC6"
+      },
+      {
+        "d": true,
+        "name": "def_tpdisec6"
+      },
+      {
+        "d": true,
+        "name": "TPDISEC7"
+      },
+      {
+        "d": true,
+        "name": "def_tpdisec7"
+      },
+      {
+        "d": true,
+        "name": "TPDISEC8"
+      },
+      {
+        "d": true,
+        "name": "def_tpdisec8"
+      },
+      {
+        "d": true,
+        "name": "TPDISEC9"
+      },
+      {
+        "d": true,
+        "name": "def_tpdisec9"
+      },
+      {
+        "d": true,
+        "name": "res_MUNCOD"
+      },
+      {
+        "d": true,
+        "name": "res_MUNNOME"
+      },
+      {
+        "d": true,
+        "name": "res_MUNNOMEX"
+      },
+      {
+        "d": true,
+        "name": "res_AMAZONIA"
+      },
+      {
+        "d": true,
+        "name": "res_FRONTEIRA"
+      },
+      {
+        "d": true,
+        "name": "res_CAPITAL"
+      },
+      {
+        "d": true,
+        "name": "res_UFCOD"
+      },
+      {
+        "d": true,
+        "name": "res_MSAUDCOD"
+      },
+      {
+        "d": true,
+        "name": "res_RSAUDCOD"
+      },
+      {
+        "d": true,
+        "name": "res_CSAUDCOD"
+      },
+      {
+        "d": true,
+        "name": "res_LATITUDE"
+      },
+      {
+        "d": true,
+        "name": "res_LONGITUDE"
+      },
+      {
+        "d": true,
+        "name": "res_ALTITUDE"
+      },
+      {
+        "d": true,
+        "name": "res_AREA"
+      },
+      {
+        "d": true,
+        "name": "res_codigo_adotado"
+      },
+      {
+        "d": true,
+        "name": "ocor_MUNCOD"
+      },
+      {
+        "d": true,
+        "name": "ocor_MUNNOME"
+      },
+      {
+        "d": true,
+        "name": "ocor_MUNNOMEX"
+      },
+      {
+        "d": true,
+        "name": "ocor_AMAZONIA"
+      },
+      {
+        "d": true,
+        "name": "ocor_FRONTEIRA"
+      },
+      {
+        "d": true,
+        "name": "ocor_CAPITAL"
+      },
+      {
+        "d": true,
+        "name": "ocor_UFCOD"
+      },
+      {
+        "d": true,
+        "name": "ocor_MSAUDCOD"
+      },
+      {
+        "d": true,
+        "name": "ocor_RSAUDCOD"
+      },
+      {
+        "d": true,
+        "name": "ocor_CSAUDCOD"
+      },
+      {
+        "d": true,
+        "name": "ocor_LATITUDE"
+      },
+      {
+        "d": true,
+        "name": "ocor_LONGITUDE"
+      },
+      {
+        "d": true,
+        "name": "ocor_ALTITUDE"
+      },
+      {
+        "d": true,
+        "name": "ocor_AREA"
+      },
+      {
+        "d": true,
+        "name": "ocor_codigo_adotado"
+      },
+      {
+        "d": true,
+        "name": "res_uf_SIGLA_UF"
+      },
+      {
+        "d": true,
+        "name": "res_uf_CODIGO_UF"
+      },
+      {
+        "d": true,
+        "name": "res_uf_NOME_UF"
+      },
+      {
+        "d": true,
+        "name": "ocor_uf_SIGLA_UF"
+      },
+      {
+        "d": true,
+        "name": "ocorreu_uf_NOME"
+      },
+      {
+        "d": true,
+        "name": "res_coordenadas"
+      },
+      {
+        "d": true,
+        "name": "ocor_coordenadas"
+      },
+      {
+        "d": true,
+        "name": "def_regiao_int"
+      },
+      {
+        "d": true,
+        "name": "def_regiao_res"
+      },
+      {
+        "d": true,
+        "name": "def_uf_int"
+      },
+      {
+        "d": true,
+        "name": "def_uf_sigla_int"
+      },
+      {
+        "d": true,
+        "name": "def_uf_res"
+      },
+      {
+        "d": true,
+        "name": "def_uf_sigla_res"
+      },
+      {
+        "d": true,
+        "name": "def_municipio_int"
+      },
+      {
+        "d": true,
+        "name": "def_municipio_res"
+      },
+      {
+        "d": true,
+        "name": "def_reg_metr_int"
+      },
+      {
+        "d": true,
+        "name": "def_reg_metr_res"
+      },
+      {
+        "d": true,
+        "name": "def_cir_int"
+      },
+      {
+        "d": true,
+        "name": "def_cir_res"
+      },
+      {
+        "d": true,
+        "name": "def_aglr_int"
+      },
+      {
+        "d": true,
+        "name": "def_aglr_res"
+      },
+      {
+        "d": true,
+        "name": "def_meso_int"
+      },
+      {
+        "d": true,
+        "name": "def_meso_res"
+      },
+      {
+        "d": true,
+        "name": "def_micro_res"
+      },
+      {
+        "d": true,
+        "name": "def_rsaud_int"
+      },
+      {
+        "d": true,
+        "name": "def_rsaud_res"
+      },
+      {
+        "d": true,
+        "name": "def_csaud_int"
+      },
+      {
+        "d": true,
+        "name": "def_csaud_res"
+      },
+      {
+        "d": true,
+        "name": "def_esferajur"
+      },
+      {
+        "d": true,
+        "name": "def_etnia"
+      },
+      {
+        "d": true,
+        "name": "def_nacionalidade"
+      },
+      {
+        "d": true,
+        "name": "def_cbo"
+      },
+      {
+        "d": true,
+        "name": "def_cnae"
+      },
+      {
+        "d": true,
+        "name": "def_leitos"
+      },
+      {
+        "d": true,
+        "name": "def_procedimento_realizado"
+      },
+      {
+        "d": true,
+        "name": "def_procedimento_solicitado"
+      },
+      {
+        "d": true,
+        "name": "def_idade_anos"
+      },
+      {
+        "d": true,
+        "name": "def_idade_bas"
+      },
+      {
+        "d": true,
+        "name": "def_idade_pub"
+      },
+      {
+        "d": true,
+        "name": "def_idade_18"
+      },
+      {
+        "d": true,
+        "name": "def_diag_princ_cap"
+      },
+      {
+        "d": true,
+        "name": "def_diag_princ_grupo"
+      },
+      {
+        "d": true,
+        "name": "def_diag_princ_cat"
+      },
+      {
+        "d": true,
+        "name": "def_diag_princ_subcat"
+      },
+      {
+        "d": true,
+        "name": "def_secun1_princ_cap"
+      },
+      {
+        "d": true,
+        "name": "def_diag_secun1_grupo"
+      },
+      {
+        "d": true,
+        "name": "def_diag_secun1_cat"
+      },
+      {
+        "d": true,
+        "name": "def_diag_secun1_subcat"
+      },
+      {
+        "d": true,
+        "name": "dt_inter"
+      },
+      {
+        "d": true,
+        "name": "ano_internacao"
+      },
+      {
+        "d": true,
+        "name": "dia_semana_internacao"
+      },
+      {
+        "d": true,
+        "name": "dt_saida"
+      },
+      {
+        "d": true,
+        "name": "ano_saida"
+      },
+      {
+        "d": true,
+        "name": "dia_semana_saida"
+      },
+      {
+        "d": true,
+        "name": "idade_nascimento_anos"
+      }
+    ]
+  },
+  "explorationSampling": {
+    "_refreshTrigger": 12,
+    "selection": {
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "latestPartitionsN": 1,
+      "maxRecords": 1000,
+      "ordering": {
+        "rules": [],
+        "enabled": false
+      },
+      "withinFirstN": -1,
+      "partitionSelectionMethod": "ALL",
+      "maxStoredBytes": 104857600,
+      "targetRatio": 0.02,
+      "maxReadUncompressedBytes": -1,
+      "samplingMethod": "HEAD_SEQUENTIAL"
+    },
+    "autoRefreshSample": true
+  },
+  "explorationFilters": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "name": "Tratando dados inválidos",
+      "metaType": "GROUP",
+      "disabled": true,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": true,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "strval(\"CNES\")",
+            "column": "CNES"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": true,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "if(PF_PJ!\u003d1 \u0026\u0026 PF_PJ!\u003d3,null,PF_PJ)",
+            "column": "PF_PJ"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": true,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "if(NIV_DEP!\u003d1 \u0026\u0026 NIV_DEP!\u003d3,null,NIV_DEP)",
+            "column": "NIV_DEP"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": true,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "if(ORGEXPED!\u003d1 \u0026\u0026 ORGEXPED!\u003d2,null,ORGEXPED)",
+            "column": "ORGEXPED"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": true,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "if(AV_ACRED!\u003d1 \u0026\u0026 AV_ACRED!\u003d2,null,AV_ACRED)",
+            "column": "AV_ACRED"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": true,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "if(AV_PNASS!\u003d1 \u0026\u0026 AV_PNASS!\u003d2,null,AV_PNASS)",
+            "column": "AV_PNASS"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": true,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    cell \u003d row[\"REGSAUDE\"]\n    try:\n        val \u003d str(cell)\n        return cell\n    except:\n        return None\n\n#if(isError(isNumeric(toNumber(QTDFILMORT))),null,if(isNumeric(toNumber(QTDFILMORT)),QTDFILMORT,null))",
+            "column": "REGSAUDE",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": true,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    cell \u003d row[\"MICR_REG\"]\n    try:\n        val \u003d str(cell)\n        return cell\n    except:\n        return None\n\n#if(isError(isNumeric(toNumber(QTDFILMORT))),null,if(isNumeric(toNumber(QTDFILMORT)),QTDFILMORT,null))",
+            "column": "MICR_REG",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": true,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    cell \u003d row[\"DISTRSAN\"]\n    try:\n        val \u003d str(cell)\n        return cell\n    except:\n        return None\n\n#if(isError(isNumeric(toNumber(QTDFILMORT))),null,if(isNumeric(toNumber(QTDFILMORT)),QTDFILMORT,null))",
+            "column": "DISTRSAN",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": true,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    cell \u003d row[\"DISTRADM\"]\n    try:\n        val \u003d str(cell)\n        return cell\n    except:\n        return None\n\n#if(isError(isNumeric(toNumber(QTDFILMORT))),null,if(isNumeric(toNumber(QTDFILMORT)),QTDFILMORT,null))",
+            "column": "DISTRADM",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "Enriquecendo os dados",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_diarias_uti",
+            "mapping": [
+              {
+                "from": "000",
+                "to": "Não"
+              },
+              {
+                "from": "001",
+                "to": "Sim"
+              },
+              {
+                "from": "999",
+                "to": "Sim"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "UTI_MES_TO"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_seq_aih5",
+            "mapping": [
+              {
+                "from": "000",
+                "to": "Seqüencial zerado"
+              },
+              {
+                "from": "001",
+                "to": "Seq 1"
+              },
+              {
+                "from": "002",
+                "to": "Seq 2"
+              },
+              {
+                "from": "003",
+                "to": "Seq 3"
+              },
+              {
+                "from": "004",
+                "to": "Outros"
+              },
+              {
+                "from": "999",
+                "to": "Outros"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "SEQ_AIH5"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_ident",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "Normal"
+              },
+              {
+                "from": "5",
+                "to": "Longa permanência"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "IDENT"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_vincprev",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "Autônomo"
+              },
+              {
+                "from": "2",
+                "to": "Desempregado"
+              },
+              {
+                "from": "3",
+                "to": "Aposentado"
+              },
+              {
+                "from": "4",
+                "to": "Não segurado"
+              },
+              {
+                "from": "5",
+                "to": "Empregado"
+              },
+              {
+                "from": "6",
+                "to": "Empregador"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "VINCPREV"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_regime",
+            "mapping": [
+              {
+                "from": "00",
+                "to": ""
+              },
+              {
+                "from": "99",
+                "to": ""
+              },
+              {
+                "from": "10",
+                "to": "Público"
+              },
+              {
+                "from": "30",
+                "to": "Público"
+              },
+              {
+                "from": "31",
+                "to": "Público"
+              },
+              {
+                "from": "40",
+                "to": "Público"
+              },
+              {
+                "from": "41",
+                "to": "Público"
+              },
+              {
+                "from": "50",
+                "to": "Público"
+              },
+              {
+                "from": "20",
+                "to": "Privado"
+              },
+              {
+                "from": "22",
+                "to": "Privado"
+              },
+              {
+                "from": "60",
+                "to": "Privado"
+              },
+              {
+                "from": "61",
+                "to": "Privado"
+              },
+              {
+                "from": "63",
+                "to": "Privado"
+              },
+              {
+                "from": "80",
+                "to": "Privado"
+              },
+              {
+                "from": "70",
+                "to": "Universitário"
+              },
+              {
+                "from": "90",
+                "to": "Universitário"
+              },
+              {
+                "from": "91",
+                "to": "Universitário"
+              },
+              {
+                "from": "93",
+                "to": "Universitário"
+              },
+              {
+                "from": "94",
+                "to": "Universitário"
+              },
+              {
+                "from": "92",
+                "to": "Universitário"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "NATUREZA"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_num_filhos",
+            "mapping": [
+              {
+                "from": "0",
+                "to": "Sem filhos/Não inform"
+              },
+              {
+                "from": "1",
+                "to": "1 filho"
+              },
+              {
+                "from": "2",
+                "to": "2 filhos"
+              },
+              {
+                "from": "3",
+                "to": "3 filhos"
+              },
+              {
+                "from": "4",
+                "to": "4 a 5 filhos"
+              },
+              {
+                "from": "5",
+                "to": "4 a 5 filhos"
+              },
+              {
+                "from": "6",
+                "to": "6 a 9 filhos"
+              },
+              {
+                "from": "9",
+                "to": "6 a 9 filhos"
+              },
+              {
+                "from": "10",
+                "to": "10 filhos ou mais"
+              },
+              {
+                "from": "99",
+                "to": "10 filhos ou mais"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "NUM_FILHOS"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_regct",
+            "mapping": [
+              {
+                "from": "7101",
+                "to": "S/crédito na média complex ambulatorial (exc FAEC)"
+              },
+              {
+                "from": "7102",
+                "to": "S/crédito na média complex hospitalar (exc FAEC)"
+              },
+              {
+                "from": "7103",
+                "to": "S/crédito na alta complex ambulatorial (exc FAEC)"
+              },
+              {
+                "from": "7104",
+                "to": "S/crédito na alta complex hospitalar (exc FAEC)"
+              },
+              {
+                "from": "7105",
+                "to": "S/crédito nos procedimentos financ FAEC"
+              },
+              {
+                "from": "7106",
+                "to": "S/crédito total incluindo FAEC"
+              },
+              {
+                "from": "7107",
+                "to": "S/crédito nas ações esp odonto (CEO I II III)"
+              },
+              {
+                "from": "7108",
+                "to": "S/crédito incentivo Saúde do Trabalhador exc FAEC"
+              },
+              {
+                "from": "7109",
+                "to": "S/crédito total HU/MEC"
+              },
+              {
+                "from": "7110",
+                "to": "S/crédito total Minist Saúde"
+              },
+              {
+                "from": "7111",
+                "to": "S/crédito NASF exc FAEC"
+              },
+              {
+                "from": "0000",
+                "to": "Sem regra contratual"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "REGCT"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_faec_tp",
+            "mapping": [
+              {
+                "from": "010000",
+                "to": "Atenção Básica (PAB)"
+              },
+              {
+                "from": "020000",
+                "to": "Assistência Farmacêutica"
+              },
+              {
+                "from": "040000",
+                "to": "FAEC - Subtipo de financiamento ignorado"
+              },
+              {
+                "from": "040001",
+                "to": "Coleta de material"
+              },
+              {
+                "from": "040002",
+                "to": "Diagnóstico em laboratório clínico"
+              },
+              {
+                "from": "040003",
+                "to": "Coleta/exame anátomo-patológico colo uterino"
+              },
+              {
+                "from": "040004",
+                "to": "Diagnóstico em neurologia"
+              },
+              {
+                "from": "040005",
+                "to": "Diagnóstico em otorrinolaringologia/fonoaudiologia"
+              },
+              {
+                "from": "040006",
+                "to": "Diagnóstico em psicologia/psiquiatria"
+              },
+              {
+                "from": "040007",
+                "to": "Consultas médicas/outr profissionais nív superior"
+              },
+              {
+                "from": "040008",
+                "to": "Atenção domiciliar"
+              },
+              {
+                "from": "040009",
+                "to": "Atend/acomp reab fís, mental, visual, múlt defic"
+              },
+              {
+                "from": "040010",
+                "to": "Atendimento/acompanhamento psicossocial"
+              },
+              {
+                "from": "040011",
+                "to": "Atendimento/acompanhamento em saúde do idoso"
+              },
+              {
+                "from": "040012",
+                "to": "Atendimento/acompanhamento de queimados"
+              },
+              {
+                "from": "040013",
+                "to": "Atend/acomp diagn doenças endócr,metabólic e nutr"
+              },
+              {
+                "from": "040014",
+                "to": "Trat doenças sistema nervoso central e periférico"
+              },
+              {
+                "from": "040015",
+                "to": "Tratamento de doenças do aparelho da visão"
+              },
+              {
+                "from": "040016",
+                "to": "Tratamento em oncologia"
+              },
+              {
+                "from": "040017",
+                "to": "Nefrologia"
+              },
+              {
+                "from": "040018",
+                "to": "Tratamentos odontológicos"
+              },
+              {
+                "from": "040019",
+                "to": "Cirurgia do sistema nervoso central e periférico"
+              },
+              {
+                "from": "040020",
+                "to": "Cirurgias de ouvido, nariz e garganta"
+              },
+              {
+                "from": "040021",
+                "to": "Deformidade labio-palatal e crânio-facial"
+              },
+              {
+                "from": "040022",
+                "to": "Cirurgia do aparelho da visão"
+              },
+              {
+                "from": "040023",
+                "to": "Cirurgia do aparelho circulatório"
+              },
+              {
+                "from": "040024",
+                "to": "Cirurgia apar digest, órgãos anexos e pared abdom"
+              },
+              {
+                "from": "040025",
+                "to": "Cirurgia do aparelho geniturinário"
+              },
+              {
+                "from": "040026",
+                "to": "Tratamento de queimados"
+              },
+              {
+                "from": "040027",
+                "to": "Cirurgia reparadora para lipodistrofia"
+              },
+              {
+                "from": "040028",
+                "to": "Outras cirurgias plásticas/reparadoras"
+              },
+              {
+                "from": "040029",
+                "to": "Cirurgia orofacial"
+              },
+              {
+                "from": "040030",
+                "to": "Sequenciais"
+              },
+              {
+                "from": "040032",
+                "to": "Transplantes de órgãos, tecidos e células"
+              },
+              {
+                "from": "040033",
+                "to": "Medicamentos para transplante"
+              },
+              {
+                "from": "040035",
+                "to": "OPM em odontologia"
+              },
+              {
+                "from": "040036",
+                "to": "OPM em queimados"
+              },
+              {
+                "from": "040038",
+                "to": "OPM para transplantes"
+              },
+              {
+                "from": "040039",
+                "to": "Incentivos ao pré-natal e nascimento"
+              },
+              {
+                "from": "040040",
+                "to": "Incentivo ao registro cívil de nascimento"
+              },
+              {
+                "from": "040041",
+                "to": "Central Nacional Regulação Alta Complexidade CNRAC"
+              },
+              {
+                "from": "040042",
+                "to": "Reguladores ativ hormonal - inibidores prolactina"
+              },
+              {
+                "from": "040043",
+                "to": "Política Nacional de Cirurgias Eletivas"
+              },
+              {
+                "from": "040044",
+                "to": "Redesignação e acompanhamento"
+              },
+              {
+                "from": "040045",
+                "to": "Projeto Olhar Brasil"
+              },
+              {
+                "from": "040046",
+                "to": "Mamografia para rastreamento"
+              },
+              {
+                "from": "040047",
+                "to": "Projeto Olhar Brasil - consulta"
+              },
+              {
+                "from": "040048",
+                "to": "Projeto Olhar Brasil - óculos"
+              },
+              {
+                "from": "040049",
+                "to": "Implementar Cirg. CV Pediátrica"
+              },
+              {
+                "from": "040050",
+                "to": "Cirurgias eletivas - componente I"
+              },
+              {
+                "from": "040051",
+                "to": "Cirurgias eletivas - componente II"
+              },
+              {
+                "from": "040052",
+                "to": "Cirurgias eletivas - componente III"
+              },
+              {
+                "from": "040053",
+                "to": "Prótese mamária - exames"
+              },
+              {
+                "from": "040054",
+                "to": "Prótese mamária - cirurgia"
+              },
+              {
+                "from": "021012",
+                "to": "FAEC CNRAC (21012-cód ant à tab unif-vál p/2008-01)"
+              },
+              {
+                "from": "021014",
+                "to": "FAEC Eletiv(21014-cód ant à tab unif-vál p/2008-01)"
+              },
+              {
+                "from": "050000",
+                "to": "Incentivo - MAC"
+              },
+              {
+                "from": "060000",
+                "to": "Média e Alta Complexidade (MAC)"
+              },
+              {
+                "from": "070000",
+                "to": "Vigilância em Saúde"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "FAEC_TP"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_dias_perm",
+            "mapping": [
+              {
+                "from": "0000",
+                "to": "0 dias"
+              },
+              {
+                "from": "0001",
+                "to": "1 dia"
+              },
+              {
+                "from": "0002",
+                "to": "2 dias"
+              },
+              {
+                "from": "0003",
+                "to": "3 dias"
+              },
+              {
+                "from": "0004",
+                "to": "4 dias"
+              },
+              {
+                "from": "0005",
+                "to": "5 dias"
+              },
+              {
+                "from": "0006",
+                "to": "6 dias"
+              },
+              {
+                "from": "0007",
+                "to": "7 dias"
+              },
+              {
+                "from": "0014",
+                "to": "8-14 dias"
+              },
+              {
+                "from": "0021",
+                "to": "15-21 dias"
+              },
+              {
+                "from": "0028",
+                "to": "22-28 dias"
+              },
+              {
+                "from": "9999",
+                "to": "29 dias e +"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "DIAS_PERM"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_uti_mes_to",
+            "mapping": [
+              {
+                "from": "001",
+                "to": "Sim"
+              },
+              {
+                "from": "999",
+                "to": "Sim"
+              },
+              {
+                "from": "000",
+                "to": "Não"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "UTI_MES_TO"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_car_int",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "Eletivo"
+              },
+              {
+                "from": "2",
+                "to": "Urgência"
+              },
+              {
+                "from": "3",
+                "to": "Acidente no local trabalho ou a serv da empresa"
+              },
+              {
+                "from": "4",
+                "to": "Acidente no trajeto para o trabalho"
+              },
+              {
+                "from": "5",
+                "to": "Outros tipo de acidente de trânsito"
+              },
+              {
+                "from": "6",
+                "to": "Out tp lesões e envenen por agent quím físicos"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "CAR_INT"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_n_aih",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "AIH Normal"
+              },
+              {
+                "from": "2",
+                "to": "APAC Normal"
+              },
+              {
+                "from": "3",
+                "to": "AIH CNRAC"
+              },
+              {
+                "from": "4",
+                "to": "APAC CNRAC"
+              },
+              {
+                "from": "5",
+                "to": "AIH Campanha de Cirurgias Eletivas"
+              },
+              {
+                "from": "6",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "N_AIH"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_sexo",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "Masculino"
+              },
+              {
+                "from": "2",
+                "to": "Feminino"
+              },
+              {
+                "from": "3",
+                "to": "Feminino"
+              },
+              {
+                "from": "0",
+                "to": ""
+              },
+              {
+                "from": "9",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "SEXO"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_ident",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "Normal"
+              },
+              {
+                "from": "5",
+                "to": "Longa permanência"
+              },
+              {
+                "from": "0",
+                "to": ""
+              },
+              {
+                "from": "9",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "IDENT"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_marca_uti",
+            "mapping": [
+              {
+                "from": "00",
+                "to": "Não utilizou UTI"
+              },
+              {
+                "from": "74",
+                "to": "UTI adulto - tipo I"
+              },
+              {
+                "from": "75",
+                "to": "UTI adulto - tipo II"
+              },
+              {
+                "from": "76",
+                "to": "UTI adulto - tipo III"
+              },
+              {
+                "from": "77",
+                "to": "UTI infantil - tipo I"
+              },
+              {
+                "from": "78",
+                "to": "UTI infantil - tipo II"
+              },
+              {
+                "from": "79",
+                "to": "UTI infantil - tipo III"
+              },
+              {
+                "from": "80",
+                "to": "UTI neonatal - tipo I"
+              },
+              {
+                "from": "81",
+                "to": "UTI neonatal - tipo II"
+              },
+              {
+                "from": "82",
+                "to": "UTI neonatal - tipo III"
+              },
+              {
+                "from": "83",
+                "to": "UTI de queimados"
+              },
+              {
+                "from": "85",
+                "to": "UTI coronariana tipo II - UCO tipo II"
+              },
+              {
+                "from": "86",
+                "to": "UTI coronariana tipo III - UCO tipo III"
+              },
+              {
+                "from": "99",
+                "to": "UTI Doador"
+              },
+              {
+                "from": "01",
+                "to": "Utilizou mais de um tipo de UTI"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "MARCA_UTI"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_cobranca",
+            "mapping": [
+              {
+                "from": "11",
+                "to": "Alta curado"
+              },
+              {
+                "from": "12",
+                "to": "Alta melhorado"
+              },
+              {
+                "from": "14",
+                "to": "Alta a pedido"
+              },
+              {
+                "from": "15",
+                "to": "Alta com previsão de retorno p/acomp do paciente"
+              },
+              {
+                "from": "16",
+                "to": "Alta por evasão"
+              },
+              {
+                "from": "18",
+                "to": "Alta por outros motivos"
+              },
+              {
+                "from": "19",
+                "to": "Alta de paciente agudo em psiquiatria"
+              },
+              {
+                "from": "21",
+                "to": "Permanência por características próprias da doença"
+              },
+              {
+                "from": "22",
+                "to": "Permanência por intercorrência"
+              },
+              {
+                "from": "23",
+                "to": "Permanência por impossibilidade sócio-familiar"
+              },
+              {
+                "from": "24",
+                "to": "Permanência proc doação órg, tec, cél-doador vivo"
+              },
+              {
+                "from": "25",
+                "to": "Permanência proc doação órg, tec, cél-doador morto"
+              },
+              {
+                "from": "26",
+                "to": "Permanência por mudança de procedimento"
+              },
+              {
+                "from": "27",
+                "to": "Permanência por reoperação"
+              },
+              {
+                "from": "28",
+                "to": "Permanência por outros motivos"
+              },
+              {
+                "from": "29",
+                "to": "Transferência para internação domiciliar"
+              },
+              {
+                "from": "32",
+                "to": "Transferência para internação domiciliar"
+              },
+              {
+                "from": "31",
+                "to": "Transferência para outro estabelecimento"
+              },
+              {
+                "from": "41",
+                "to": "Óbito com DO fornecida pelo médico assistente"
+              },
+              {
+                "from": "42",
+                "to": "Óbito com DO fornecida pelo IML"
+              },
+              {
+                "from": "43",
+                "to": "Óbito com DO fornecida pelo SVO"
+              },
+              {
+                "from": "51",
+                "to": "Encerramento administrativo"
+              },
+              {
+                "from": "61",
+                "to": "Alta da mãe/puérpera e do recém-nascido"
+              },
+              {
+                "from": "17",
+                "to": "Alta da mãe/puérpera e do recém-nascido"
+              },
+              {
+                "from": "62",
+                "to": "Alta da mãe/puérpera e permanência recém-nascido"
+              },
+              {
+                "from": "13",
+                "to": "Alta da mãe/puérpera e permanência recém-nascido"
+              },
+              {
+                "from": "63",
+                "to": "Alta da mãe/puérpera e óbito do recém-nascido"
+              },
+              {
+                "from": "64",
+                "to": "Alta da mãe/puérpera com óbito fetal"
+              },
+              {
+                "from": "65",
+                "to": "Óbito da gestante e do concepto"
+              },
+              {
+                "from": "66",
+                "to": "Óbito da mãe/puérpera e alta do recém-nascido"
+              },
+              {
+                "from": "67",
+                "to": "Óbito da mãe/puérpera e permanência recém-nascido"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "COBRANCA"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_nat_jur",
+            "mapping": [
+              {
+                "from": "1015",
+                "to": "Órgão Público do Poder Executivo Federal"
+              },
+              {
+                "from": "1023",
+                "to": "Órgão Público do Poder Exec Estadual ou Distr Fed"
+              },
+              {
+                "from": "1031",
+                "to": "Órgão Público do Poder Executivo Municipal"
+              },
+              {
+                "from": "1040",
+                "to": "Órgão Público do Poder Legislativo Federal"
+              },
+              {
+                "from": "1058",
+                "to": "Órgão Público do Poder Legisl Estadual ou Dist Fed"
+              },
+              {
+                "from": "1066",
+                "to": "Órgão Público do Poder Legislativo Municipal"
+              },
+              {
+                "from": "1074",
+                "to": "Órgão Público do Poder Judiciário Federal"
+              },
+              {
+                "from": "1082",
+                "to": "Órgão Público do Poder Judiciário Estadual"
+              },
+              {
+                "from": "1104",
+                "to": "Autarquia Federal"
+              },
+              {
+                "from": "1112",
+                "to": "Autarquia Estadual ou do Distrito Federal"
+              },
+              {
+                "from": "1120",
+                "to": "Autarquia Municipal"
+              },
+              {
+                "from": "1139",
+                "to": "Fundação Federal"
+              },
+              {
+                "from": "1147",
+                "to": "Fundação Estadual ou do Distrito Federal"
+              },
+              {
+                "from": "1155",
+                "to": "Fundação Municipal"
+              },
+              {
+                "from": "1163",
+                "to": "Órgão Público Autônomo Federal"
+              },
+              {
+                "from": "1171",
+                "to": "Órgão Público Autônomo Estadual ou Distr Federal"
+              },
+              {
+                "from": "1180",
+                "to": "Órgão Público Autônomo Estadual ou Distr Federal"
+              },
+              {
+                "from": "1198",
+                "to": "Comissão Polinacional"
+              },
+              {
+                "from": "1201",
+                "to": "Fundo Público"
+              },
+              {
+                "from": "1210",
+                "to": "Associação Pública"
+              },
+              {
+                "from": "2011",
+                "to": "Empresa Pública"
+              },
+              {
+                "from": "2038",
+                "to": "Sociedade de Economia Mista"
+              },
+              {
+                "from": "2046",
+                "to": "Sociedade Anônima Aberta"
+              },
+              {
+                "from": "2054",
+                "to": "Sociedade Anônima Fechada"
+              },
+              {
+                "from": "2062",
+                "to": "Sociedade Empresária Limitada"
+              },
+              {
+                "from": "2070",
+                "to": "Sociedade Empresária em Nome Coletivo"
+              },
+              {
+                "from": "2089",
+                "to": "Sociedade Empresária em Comandita Simples"
+              },
+              {
+                "from": "2097",
+                "to": "Sociedade Empresária em Comandita por Ações"
+              },
+              {
+                "from": "2127",
+                "to": "Sociedade em Conta de Participação"
+              },
+              {
+                "from": "2135",
+                "to": "Empresário (Individual)"
+              },
+              {
+                "from": "2143",
+                "to": "Cooperativa"
+              },
+              {
+                "from": "2151",
+                "to": "Consórcio de Sociedades"
+              },
+              {
+                "from": "2160",
+                "to": "Grupo de Sociedades"
+              },
+              {
+                "from": "2178",
+                "to": "Estabelecimento no Brasil de Sociedade Estrangeira"
+              },
+              {
+                "from": "2194",
+                "to": "Estab no Brasil Empr Binacional Argentina-Brasil"
+              },
+              {
+                "from": "2216",
+                "to": "Empresa Domiciliada no Exterior"
+              },
+              {
+                "from": "2224",
+                "to": "Clube/Fundo de Investimento"
+              },
+              {
+                "from": "2232",
+                "to": "Sociedade Simples Pura"
+              },
+              {
+                "from": "2240",
+                "to": "Sociedade Simples Limitada"
+              },
+              {
+                "from": "2259",
+                "to": "Sociedade Simples em Nome Coletivo"
+              },
+              {
+                "from": "2267",
+                "to": "Sociedade Simples em Comandita Simples"
+              },
+              {
+                "from": "2275",
+                "to": "Empresa Binacional"
+              },
+              {
+                "from": "2283",
+                "to": "Consórcio de Empregadores"
+              },
+              {
+                "from": "2291",
+                "to": "Consórcio Simples"
+              },
+              {
+                "from": "2305",
+                "to": "Empr Individ Responsab Limitada (Natur Empresária)"
+              },
+              {
+                "from": "2313",
+                "to": "Empr Individ Responsab Limitada (Natureza Simples)"
+              },
+              {
+                "from": "3034",
+                "to": "Serviço Notarial e Registral (Cartório)"
+              },
+              {
+                "from": "3069",
+                "to": "Fundação Privada"
+              },
+              {
+                "from": "3077",
+                "to": "Serviço Social Autônomo"
+              },
+              {
+                "from": "3085",
+                "to": "Condomínio Edilício"
+              },
+              {
+                "from": "3107",
+                "to": "Comissão de Conciliação Prévia"
+              },
+              {
+                "from": "3115",
+                "to": "Entidade de Mediação e Arbitragem"
+              },
+              {
+                "from": "3123",
+                "to": "Partido Político"
+              },
+              {
+                "from": "3131",
+                "to": "Entidade Sindical"
+              },
+              {
+                "from": "3204",
+                "to": "Estab no Brasil de Fundação ou Associação Estrang"
+              },
+              {
+                "from": "3212",
+                "to": "Fundação ou Associação Domiciliada no Exterior"
+              },
+              {
+                "from": "3220",
+                "to": "Organização Religiosa"
+              },
+              {
+                "from": "3239",
+                "to": "Comunidade Indígena"
+              },
+              {
+                "from": "3247",
+                "to": "Fundo Privado"
+              },
+              {
+                "from": "3999",
+                "to": "Associação Privada"
+              },
+              {
+                "from": "4014",
+                "to": "Empresa Individual Imobiliária"
+              },
+              {
+                "from": "4022",
+                "to": "Segurado Especial"
+              },
+              {
+                "from": "4081",
+                "to": "Contribuinte Individual"
+              },
+              {
+                "from": "4090",
+                "to": "Candidato a Cargo Político Eletivo"
+              },
+              {
+                "from": "4111",
+                "to": "Leiloeiro"
+              },
+              {
+                "from": "5010",
+                "to": "Organização Internacional"
+              },
+              {
+                "from": "5029",
+                "to": "Representação Diplomática Estrangeira"
+              },
+              {
+                "from": "5037",
+                "to": "Outras Instituições Extraterritoriais"
+              },
+              {
+                "from": "0000",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "NAT_JUR"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_gestao",
+            "mapping": [
+              {
+                "from": "0",
+                "to": "Estadual"
+              },
+              {
+                "from": "2",
+                "to": "Estadual plena"
+              },
+              {
+                "from": "1",
+                "to": "Municipal planea assist"
+              },
+              {
+                "from": "3",
+                "to": ""
+              },
+              {
+                "from": "4",
+                "to": ""
+              },
+              {
+                "from": "E",
+                "to": "Estadual plena"
+              },
+              {
+                "from": "M",
+                "to": "Municipal plena assist"
+              },
+              {
+                "from": "5",
+                "to": ""
+              },
+              {
+                "from": "6",
+                "to": ""
+              },
+              {
+                "from": "7",
+                "to": ""
+              },
+              {
+                "from": "8",
+                "to": ""
+              },
+              {
+                "from": "9",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "GESTAO"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_ind_vdrl",
+            "mapping": [
+              {
+                "from": "0",
+                "to": "Não"
+              },
+              {
+                "from": "1",
+                "to": "Sim"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "IND_VDRL"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_cod_idade",
+            "mapping": [
+              {
+                "from": "2",
+                "to": "Dias"
+              },
+              {
+                "from": "3",
+                "to": "Meses"
+              },
+              {
+                "from": "4",
+                "to": "Anos"
+              },
+              {
+                "from": "0",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "COD_IDADE"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_morte",
+            "mapping": [
+              {
+                "from": "0",
+                "to": "Sem óbito"
+              },
+              {
+                "from": "1",
+                "to": "Com óbito"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "MORTE"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_car_int",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "Eletivo"
+              },
+              {
+                "from": "2",
+                "to": "Urgência"
+              },
+              {
+                "from": "3",
+                "to": "Acidente no local trabalho ou a serv da empresa"
+              },
+              {
+                "from": "4",
+                "to": "Acidente no trajeto para o trabalho"
+              },
+              {
+                "from": "5",
+                "to": "Outros tipo de acidente de trânsito"
+              },
+              {
+                "from": "6",
+                "to": "Out tp lesões e envenen por agent quím físicos"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "CAR_INT"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_homonimo",
+            "mapping": [
+              {
+                "from": "0",
+                "to": "Não"
+              },
+              {
+                "from": "1",
+                "to": "Sim"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "HOMONIMO"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_instru",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "Analfabeto"
+              },
+              {
+                "from": "2",
+                "to": "1º grau"
+              },
+              {
+                "from": "3",
+                "to": "2º grau"
+              },
+              {
+                "from": "4",
+                "to": "3º grau"
+              },
+              {
+                "from": "0",
+                "to": ""
+              },
+              {
+                "from": "9",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "INSTRU"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_contracep1",
+            "mapping": [
+              {
+                "from": "01",
+                "to": "LAM"
+              },
+              {
+                "from": "02",
+                "to": "Ogino Kaus"
+              },
+              {
+                "from": "03",
+                "to": "Temperatura basal"
+              },
+              {
+                "from": "04",
+                "to": "Billings"
+              },
+              {
+                "from": "05",
+                "to": "Cinto térmico"
+              },
+              {
+                "from": "06",
+                "to": "DIU"
+              },
+              {
+                "from": "07",
+                "to": "Diafragma"
+              },
+              {
+                "from": "08",
+                "to": "Preservativo"
+              },
+              {
+                "from": "09",
+                "to": "Espermicida"
+              },
+              {
+                "from": "10",
+                "to": "Hormônio oral"
+              },
+              {
+                "from": "11",
+                "to": "Hormônio injetável"
+              },
+              {
+                "from": "12",
+                "to": "Coito interrompido"
+              },
+              {
+                "from": "00",
+                "to": ""
+              },
+              {
+                "from": "99",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "CONTRACEP1"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_contracep2",
+            "mapping": [
+              {
+                "from": "01",
+                "to": "LAM"
+              },
+              {
+                "from": "02",
+                "to": "Ogino Kaus"
+              },
+              {
+                "from": "03",
+                "to": "Temperatura basal"
+              },
+              {
+                "from": "04",
+                "to": "Billings"
+              },
+              {
+                "from": "05",
+                "to": "Cinto térmico"
+              },
+              {
+                "from": "06",
+                "to": "DIU"
+              },
+              {
+                "from": "07",
+                "to": "Diafragma"
+              },
+              {
+                "from": "08",
+                "to": "Preservativo"
+              },
+              {
+                "from": "09",
+                "to": "Espermicida"
+              },
+              {
+                "from": "10",
+                "to": "Hormônio oral"
+              },
+              {
+                "from": "11",
+                "to": "Hormônio injetável"
+              },
+              {
+                "from": "12",
+                "to": "Coito interrompido"
+              },
+              {
+                "from": "00",
+                "to": ""
+              },
+              {
+                "from": "99",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "CONTRACEP2"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_gestrisco",
+            "mapping": [
+              {
+                "from": "0",
+                "to": "Não"
+              },
+              {
+                "from": "1",
+                "to": "Sim"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "GESTRISCO"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_seq_aih5",
+            "mapping": [
+              {
+                "from": "000",
+                "to": "Seqüencial zerado"
+              },
+              {
+                "from": "001",
+                "to": "Seq 1"
+              },
+              {
+                "from": "002",
+                "to": "Seq 2"
+              },
+              {
+                "from": "003",
+                "to": "Seq 3"
+              },
+              {
+                "from": "004",
+                "to": "Outros"
+              },
+              {
+                "from": "999",
+                "to": "Outros"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "SEQ_AIH5"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_vincprev",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "Autônomo"
+              },
+              {
+                "from": "2",
+                "to": "Desempregado"
+              },
+              {
+                "from": "3",
+                "to": "Aposentado"
+              },
+              {
+                "from": "4",
+                "to": "Não segurado"
+              },
+              {
+                "from": "5",
+                "to": "Empregado"
+              },
+              {
+                "from": "6",
+                "to": "Empregador"
+              },
+              {
+                "from": "0",
+                "to": ""
+              },
+              {
+                "from": "9",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "VINCPREV"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_infehosp",
+            "mapping": [
+              {
+                "from": "0",
+                "to": "Não"
+              },
+              {
+                "from": "1",
+                "to": "Sim"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "INFEHOSP"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_complex",
+            "mapping": [
+              {
+                "from": "01",
+                "to": "Atenção Básica"
+              },
+              {
+                "from": "02",
+                "to": "Média complexidade"
+              },
+              {
+                "from": "03",
+                "to": "Alta complexidade"
+              },
+              {
+                "from": "00",
+                "to": ""
+              },
+              {
+                "from": "99",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "COMPLEX"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_financ",
+            "mapping": [
+              {
+                "from": "01",
+                "to": "Atenção Básica (PAB)"
+              },
+              {
+                "from": "02",
+                "to": "Assistência Farmacêutica"
+              },
+              {
+                "from": "04",
+                "to": "Fundo de Ações Estratégicas e Compensações FAEC"
+              },
+              {
+                "from": "05",
+                "to": "Incentivo - MAC"
+              },
+              {
+                "from": "06",
+                "to": "Média e Alta Complexidade (MAC)"
+              },
+              {
+                "from": "07",
+                "to": "Vigilância em Saúde"
+              },
+              {
+                "from": "00",
+                "to": ""
+              },
+              {
+                "from": "99",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "FINANC"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_raca_cor",
+            "mapping": [
+              {
+                "from": "01",
+                "to": "Branca"
+              },
+              {
+                "from": "02",
+                "to": "Preta"
+              },
+              {
+                "from": "03",
+                "to": "Parda"
+              },
+              {
+                "from": "04",
+                "to": "Amarela"
+              },
+              {
+                "from": "05",
+                "to": "Indígena"
+              },
+              {
+                "from": "00",
+                "to": ""
+              },
+              {
+                "from": "99",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "RACA_COR"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_marca_uci",
+            "mapping": [
+              {
+                "from": "00",
+                "to": "Não utilizou UCI"
+              },
+              {
+                "from": "01",
+                "to": "Unidade de cuidados intermed neonatal convencional"
+              },
+              {
+                "from": "02",
+                "to": "Unidade de cuidados intermed neonatal canguru"
+              },
+              {
+                "from": "03",
+                "to": "Unidade intermediária neonatal"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "MARCA_UCI"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_tpdisec1",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "Pré-existente"
+              },
+              {
+                "from": "2",
+                "to": "Adquirido"
+              },
+              {
+                "from": "0",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "TPDISEC1"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_tpdisec2",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "Pré-existente"
+              },
+              {
+                "from": "2",
+                "to": "Adquirido"
+              },
+              {
+                "from": "0",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "TPDISEC2"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_tpdisec3",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "Pré-existente"
+              },
+              {
+                "from": "2",
+                "to": "Adquirido"
+              },
+              {
+                "from": "0",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "TPDISEC3"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_tpdisec4",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "Pré-existente"
+              },
+              {
+                "from": "2",
+                "to": "Adquirido"
+              },
+              {
+                "from": "0",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "TPDISEC4"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_tpdisec5",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "Pré-existente"
+              },
+              {
+                "from": "2",
+                "to": "Adquirido"
+              },
+              {
+                "from": "0",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "TPDISEC5"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_tpdisec6",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "Pré-existente"
+              },
+              {
+                "from": "2",
+                "to": "Adquirido"
+              },
+              {
+                "from": "0",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "TPDISEC6"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_tpdisec7",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "Pré-existente"
+              },
+              {
+                "from": "2",
+                "to": "Adquirido"
+              },
+              {
+                "from": "0",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "TPDISEC7"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_tpdisec8",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "Pré-existente"
+              },
+              {
+                "from": "2",
+                "to": "Adquirido"
+              },
+              {
+                "from": "0",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "TPDISEC8"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "def_tpdisec9",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "Pré-existente"
+              },
+              {
+                "from": "2",
+                "to": "Adquirido"
+              },
+              {
+                "from": "0",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "TPDISEC9"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "Enriquecendo com dados de múnicipio",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnCopier",
+          "params": {
+            "outputColumn": "cod_mun_mov",
+            "inputColumn": "MUNIC_MOV"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnCopier",
+          "params": {
+            "outputColumn": "cod_mun_res",
+            "inputColumn": "MUNIC_RES"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "StringTransformer",
+          "params": {
+            "mode": "TRUNCATE",
+            "columns": [
+              "cod_mun_res"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "truncate_limit": 6
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "StringTransformer",
+          "params": {
+            "mode": "TRUNCATE",
+            "columns": [
+              "cod_mun_mov"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "truncate_limit": 6
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "MUNCOD",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "res_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "cod_mun_res",
+            "copyColumns": [
+              "MUNCOD",
+              "MUNNOME",
+              "MUNNOMEX",
+              "AMAZONIA",
+              "FRONTEIRA",
+              "CAPITAL",
+              "UFCOD",
+              "MSAUDCOD",
+              "RSAUDCOD",
+              "CSAUDCOD",
+              "LATITUDE",
+              "LONGITUDE",
+              "ALTITUDE",
+              "AREA",
+              "codigo_adotado"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "municipios_1",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "MUNCOD",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "ocor_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "cod_mun_mov",
+            "copyColumns": [
+              "MUNCOD",
+              "MUNNOME",
+              "MUNNOMEX",
+              "AMAZONIA",
+              "FRONTEIRA",
+              "CAPITAL",
+              "UFCOD",
+              "MSAUDCOD",
+              "RSAUDCOD",
+              "CSAUDCOD",
+              "LATITUDE",
+              "LONGITUDE",
+              "ALTITUDE",
+              "AREA",
+              "codigo_adotado"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "municipios_1",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnsSelector",
+          "params": {
+            "columns": [
+              "cod_mun_res",
+              "cod_mun_mov"
+            ],
+            "keep": false,
+            "appliesTo": "COLUMNS"
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "Enriquecendo com dados de UF",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnCopier",
+          "params": {
+            "outputColumn": "cod_uf_mov",
+            "inputColumn": "MUNIC_MOV"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnCopier",
+          "params": {
+            "outputColumn": "cod_uf_res",
+            "inputColumn": "MUNIC_RES"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "StringTransformer",
+          "params": {
+            "mode": "TRUNCATE",
+            "columns": [
+              "cod_uf_res"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "truncate_limit": 2
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "StringTransformer",
+          "params": {
+            "mode": "TRUNCATE",
+            "columns": [
+              "cod_uf_mov"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "truncate_limit": 2
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "CODIGO",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "res_uf_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "cod_uf_res",
+            "copyColumns": [
+              "SIGLA_UF",
+              "CODIGO",
+              "DESCRICAO"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "ufs_1",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "CODIGO",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "ocor_uf_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "cod_uf_mov",
+            "copyColumns": [
+              "SIGLA_UF",
+              "CODIGO",
+              "DESCRICAO"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "ufs_1",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "res_uf_CODIGO",
+                "to": "res_uf_CODIGO_UF"
+              },
+              {
+                "from": "res_uf_DESCRICAO",
+                "to": "res_uf_NOME_UF"
+              },
+              {
+                "from": "ocor_uf_CODIGO",
+                "to": "res_uf_CODIGO_UF"
+              },
+              {
+                "from": "ocor_uf_DESCRICAO",
+                "to": "ocorreu_uf_NOME"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "Enriquecendo com coordenadas",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "def process(row):\n    if row[\"res_LATITUDE\"] is None or row[\"res_LONGITUDE\"] is None:\n        return None\n    \n    try:\n        lat \u003d str(row[\"res_LATITUDE\"])\n        long \u003d str(row[\"res_LONGITUDE\"])\n        f_lat \u003d float(lat)\n        f_long \u003d float(long)\n    except:\n        return None\n    \n    return lat+\",\"+long\n\n# Cria coluna com coordenadas \"lat,lon\"\n# https://www.elastic.co/guide/en/elasticsearch/reference/current/geo-point.html \n# Geo-point expressed as a string with the format: \"lat,lon\"",
+            "column": "res_coordenadas",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "def process(row):\n    if row[\"ocor_LATITUDE\"] is None or row[\"ocor_LONGITUDE\"] is None:\n        return None\n    \n    try:\n        lat \u003d str(row[\"ocor_LATITUDE\"])\n        long \u003d str(row[\"ocor_LONGITUDE\"])\n        f_lat \u003d float(lat)\n        f_long \u003d float(long)\n    except:\n        return None\n    \n    return lat+\",\"+long\n\n# Cria coluna com coordenadas \"lat,lon\"\n# https://www.elastic.co/guide/en/elasticsearch/reference/current/geo-point.html \n# Geo-point expressed as a string with the format: \"lat,lon\"",
+            "column": "ocor_coordenadas",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "REGUF int",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnCopier",
+          "params": {
+            "outputColumn": "munic_mov",
+            "inputColumn": "MUNIC_MOV"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "StringTransformer",
+          "params": {
+            "mode": "TRUNCATE",
+            "columns": [
+              "munic_mov"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "truncate_limit": 2
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "munic_mov",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "REGUF",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_regiao_int"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnsSelector",
+          "params": {
+            "columns": [
+              "munic_mov"
+            ],
+            "keep": false,
+            "appliesTo": "SINGLE_COLUMN"
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "REGUF res",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnCopier",
+          "params": {
+            "outputColumn": "munic_res",
+            "inputColumn": "MUNIC_RES"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "StringTransformer",
+          "params": {
+            "mode": "TRUNCATE",
+            "columns": [
+              "munic_res"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "truncate_limit": 2
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "munic_res",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "REGUF",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_regiao_res"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnsSelector",
+          "params": {
+            "columns": [
+              "munic_res"
+            ],
+            "keep": false,
+            "appliesTo": "SINGLE_COLUMN"
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "UF int",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnCopier",
+          "params": {
+            "outputColumn": "munic_mov",
+            "inputColumn": "MUNIC_MOV"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "StringTransformer",
+          "params": {
+            "mode": "TRUNCATE",
+            "columns": [
+              "munic_mov"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "truncate_limit": 2
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "munic_mov",
+            "copyColumns": [
+              "value",
+              "value2"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "UF",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_uf_int"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value2",
+                "to": "def_uf_sigla_int"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnsSelector",
+          "params": {
+            "columns": [
+              "munic_mov"
+            ],
+            "keep": false,
+            "appliesTo": "SINGLE_COLUMN"
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "UF res",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnCopier",
+          "params": {
+            "outputColumn": "munic_res",
+            "inputColumn": "MUNIC_RES"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "StringTransformer",
+          "params": {
+            "mode": "TRUNCATE",
+            "columns": [
+              "munic_res"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "truncate_limit": 2
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "munic_res",
+            "copyColumns": [
+              "value",
+              "value2"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "UF",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_uf_res"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value2",
+                "to": "def_uf_sigla_res"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnsSelector",
+          "params": {
+            "columns": [
+              "munic_res"
+            ],
+            "keep": false,
+            "appliesTo": "SINGLE_COLUMN"
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "IDENTIFIC",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnCopier",
+          "params": {
+            "outputColumn": "def_identific",
+            "inputColumn": "N_AIH"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "StringTransformer",
+          "params": {
+            "mode": "TRUNCATE",
+            "columns": [
+              "def_identific"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "truncate_limit": 1
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "AIH normal"
+              },
+              {
+                "from": "2",
+                "to": "APAC Normal"
+              },
+              {
+                "from": "3",
+                "to": "AIH CNRAC"
+              },
+              {
+                "from": "4",
+                "to": "APAC CNRAC"
+              },
+              {
+                "from": "5",
+                "to": "AIH Campanha de Cirurgias Eletivas"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "def_identific"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "SUBSTRING"
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "MUNIC_BR int",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "MUNIC_MOV",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "MUNIC_BR",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_municipio_int"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "MUNIC_BR res",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "MUNIC_RES",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "MUNIC_BR",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_municipio_res"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "RMETRBR int",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "MUNIC_MOV",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "RMETRBR",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_reg_metr_int"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "RMETRBR res",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "MUNIC_RES",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "RMETRBR",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_reg_metr_res"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "CIRBR int",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "value",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "MUNIC_MOV",
+            "copyColumns": [
+              "id"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "CIRBR",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_id",
+                "to": "def_cir_int"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "CIRBR res",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "value",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "MUNIC_RES",
+            "copyColumns": [
+              "id"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "CIRBR",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_id",
+                "to": "def_cir_res"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "AGLBR int",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "MUNIC_MOV",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "AGLBR",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_aglr_int"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "AGLBR res",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "MUNIC_RES",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "AGLBR",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_aglr_res"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "MESOBR int",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "MUNIC_MOV",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "MESOBR",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_meso_int"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "MESOBR res",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "MUNIC_RES",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "MESOBR",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_meso_res"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "MICROBR int",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "MUNIC_RES",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "MICROBR",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_micro_res"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "RSAUDBR int",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "MUNIC_MOV",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "RSAUDBR",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_rsaud_int"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "RSAUDBR res",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "MUNIC_RES",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "RSAUDBR",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_rsaud_res"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "CSAUDBR int",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "MUNIC_MOV",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "CSAUDBR",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_csaud_int"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "CSAUDBR res",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "MUNIC_RES",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "CSAUDBR",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_csaud_res"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "ESFERAJUR",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "NAT_JUR",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "ESFERAJUR",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_esferajur"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "ETNIA",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "ETNIA",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "ETNIA",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_etnia"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "",
+            "mapping": [
+              {
+                "from": "NÃO INFORMADO",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "def_etnia"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "SUBSTRING"
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "NACIONALIDADE",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "NACIONAL",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "NACION3D",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_nacionalidade"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "CBO",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "CBOR",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "CBO",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_cbo"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "CNAE",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "CNAER",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "CNAE",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_cnae"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "LEITOS",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "ESPEC",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "LEITOS",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_leitos"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "PROCEDIMENTO REALIZADO",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "PROC_REA",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "TB_SIGTAB",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_procedimento_realizado"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "PROCEDIMENTO SOLICITADO",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "PROC_SOLIC",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "TB_SIGTAB",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_procedimento_solicitado"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "Enriquecendo com dados de idade",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    idade \u003d int(row[\"IDADE\"])\n    cod_idade \u003d int(row[\"COD_IDADE\"]) \n    \n    if cod_idade \u003c 4: # Idade em mêses ou dias\n        return 0\n    return idade\n        ",
+            "column": "def_idade_anos",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    idade \u003d int(row[\"def_idade_anos\"])\n    \n    if idade \u003c 1:\n        return \"\u003c1a\"\n    if idade \u003e\u003d 1 and idade \u003c 5:\n        return \"1-4a\"\n    if idade \u003e\u003d 5 and idade \u003c 15:\n        return \"5-14a\"\n    if idade \u003e\u003d 15 and idade \u003c 50:\n        return \"15-49a\"\n    if idade \u003e\u003d 50:\n        return \"50e+a\"\n    else: None",
+            "column": "def_idade_bas",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    idade \u003d int(row[\"def_idade_anos\"])\n    \n    if idade \u003c 1:\n        return \"\u003c1a\"\n    if idade \u003e\u003d 1 and idade \u003c 5:\n        return \"1-4a\"\n    if idade \u003e\u003d 5 and idade \u003c 15:\n        return \"5-14a\"\n    if idade \u003e\u003d 15 and idade \u003c 25:\n        return \"15-24a\"\n    if idade \u003e\u003d 25 and idade \u003c 35:\n        return \"25-34a\"\n    if idade \u003e\u003d 25 and idade \u003c 45: \n        return \"35-44a\"\n    if idade \u003e\u003d 45 and idade \u003c 55:\n        return \"45-54a\"\n    if idade \u003e\u003d 55 and idade \u003c 65:\n        return \"55-64a\"\n    if idade \u003e\u003d 65:\n        return \"65e+a\"\n    else: None",
+            "column": "def_idade_pub",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    idade \u003d int(row[\"def_idade_anos\"])\n    \n    if idade \u003c 1:\n        return \"\u003c1a\"\n    if idade \u003e\u003d 1 and idade \u003c 5:\n        return \"1-4a\"\n    if idade \u003e\u003d 5 and idade \u003c 10:\n        return \"5-9a\"\n    if idade \u003e\u003d 10 and idade \u003c 15:\n        return \"10-14a\"\n    if idade \u003e\u003d 15 and idade \u003c 20:\n        return \"15-19a\"\n    if idade \u003e\u003d 20 and idade \u003c 25:\n        return \"20-24a\"\n    if idade \u003e\u003d 25 and idade \u003c 30:\n        return \"25-29a\"\n    if idade \u003e\u003d 30 and idade \u003c 35:\n        return \"30-34a\"\n    if idade \u003e\u003d 35 and idade \u003c 40:\n        return \"35-39a\"\n    if idade \u003e\u003d 40 and idade \u003c 45:\n        return \"40-44a\"\n    if idade \u003e\u003d 45 and idade \u003c 50:\n        return \"45-49a\"\n    if idade \u003e\u003d 50 and idade \u003c 55:\n        return \"50-54a\"\n    if idade \u003e\u003d 55 and idade \u003c 60: \n        return \"55-59a\"\n    if idade \u003e\u003d 60 and idade \u003c 65:\n        return \"60-64a\"\n    if idade \u003e\u003d 65 and idade \u003c 70:\n        return \"65-69a\"\n    if idade \u003e\u003d 70 and idade \u003c 75: \n        return \"70-74a\"\n    if idade \u003e\u003d 75 and idade \u003c 80:\n        return \"75-79a\"\n    if idade \u003e\u003d 80:\n        return \"80e+a\"\n    else: None",
+            "column": "def_idade_18",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "Diagnóstico Principal",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnCopier",
+          "params": {
+            "outputColumn": "diag_princ",
+            "inputColumn": "DIAG_PRINC"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "StringTransformer",
+          "params": {
+            "mode": "TRUNCATE",
+            "columns": [
+              "diag_princ"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "truncate_limit": 3
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "diag_princ",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "cid10_capitulos",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_diag_princ_cap"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "diag_princ",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "cid10_grupos",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_diag_princ_grupo"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "diag_princ",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "cid10_categorias",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_diag_princ_cat"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnsSelector",
+          "params": {
+            "columns": [
+              "diag_princ"
+            ],
+            "keep": false,
+            "appliesTo": "SINGLE_COLUMN"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "DIAG_PRINC",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "cid10_subcategorias",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_diag_princ_subcat"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "Diagnóstico Secundário (1)",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnCopier",
+          "params": {
+            "outputColumn": "diag_secun",
+            "inputColumn": "DIAGSEC1"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "StringTransformer",
+          "params": {
+            "mode": "TRUNCATE",
+            "columns": [
+              "diag_secun"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "truncate_limit": 3
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "diag_secun",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "cid10_capitulos",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_secun1_princ_cap"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "diag_secun",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "cid10_grupos",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_diag_secun1_grupo"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "diag_secun",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "cid10_categorias",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_diag_secun1_cat"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnsSelector",
+          "params": {
+            "columns": [
+              "diag_secun"
+            ],
+            "keep": false,
+            "appliesTo": "SINGLE_COLUMN"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "MemoryEquiJoiner",
+          "params": {
+            "rightCol": "cod",
+            "forceRawLevenshteinEngine": false,
+            "copyPrefix": "join_",
+            "sortAlphabetically": false,
+            "language": "english",
+            "leftCol": "DIAGSEC1",
+            "copyColumns": [
+              "value"
+            ],
+            "normalize": false,
+            "maxLevenshtein": 1,
+            "clearStopWords": false,
+            "fuzzy": false,
+            "rightInput": "cid10_subcategorias",
+            "stem": false
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "join_value",
+                "to": "def_diag_secun1_subcat"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "Enriquecendo com dados de datas",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "if(isError(asDate(strval(\"DT_INTER\"),\"yyyyMMdd\")),null,asDate(strval(\"DT_INTER\"),\"yyyyMMdd\"))",
+            "column": "dt_inter"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "if(isError(asDate(strval(\"DT_SAIDA\"),\"yyyyMMdd\")),null,asDate(strval(\"DT_SAIDA\"),\"yyyyMMdd\"))",
+            "column": "dt_saida"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "DateComponentsExtractor",
+          "params": {
+            "outYearColumn": "ano_internacao",
+            "column": "dt_inter",
+            "outDayOfWeekColumn": "dia_semana_internacao",
+            "timezone_id": "UTC"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "DateComponentsExtractor",
+          "params": {
+            "outYearColumn": "ano_saida",
+            "column": "dt_saida",
+            "outDayOfWeekColumn": "dia_semana_saida",
+            "timezone_id": "UTC"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "seg"
+              },
+              {
+                "from": "2",
+                "to": "ter"
+              },
+              {
+                "from": "3",
+                "to": "qua"
+              },
+              {
+                "from": "4",
+                "to": "qui"
+              },
+              {
+                "from": "5",
+                "to": "sex"
+              },
+              {
+                "from": "6",
+                "to": "sab"
+              },
+              {
+                "from": "7",
+                "to": "dom"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "dia_semana_internacao",
+              "dia_semana_saida"
+            ],
+            "appliesTo": "COLUMNS",
+            "stopAfterFirstMatch": false,
+            "matching": "SUBSTRING"
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "Enriquecendo com dados de idade",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    idade \u003d row[\"IDADE\"]\n    unidade_idade \u003d row[\"COD_IDADE\"]\n    \n    try:\n        int(idade)\n    except:\n        return None\n    \n    if len(idade)\u003e3: #campo com dados inválidos\n        return None\n    \n#    unidade_idade \u003d int(idade[0])\n#    idade_val \u003d idade[1]+idade[2]\n\n    if unidade_idade\u003c4: #Menos de um ano\n        return 0\n    \n    return idade\n    \n#if(IDADE_1\u003e\u003d0 \u0026\u0026 IDADE_1\u003c4,0,if(IDADE_1\u003e\u003d4 \u0026\u0026 IDADE_1\u003c\u003d5,(IDADE_1-4)*100+IDADE_2,null))",
+            "column": "idade_nascimento_anos",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": true,
+          "type": "PythonUDF",
+          "params": {
+            "mode": "CELL",
+            "stopOnError": true,
+            "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    idade \u003d row[\"IDADE\"]\n    unidade_idade \u003d row[\"COD_IDADE\"]\n    n_idade \u003d None\n    \n    try:\n        int(idade)\n    except:\n        return None\n    \n    if len(idade)\u003e3: #campo com dados inválidos\n        return None\n\n    if unidade_idade\u003d\u003d2: #Idade em dias\n        return 0\n    \n    if unidade_idade\u003d\u003d4: #Idade em anos\n        n_idade \u003d int(idade)*int(12)\n    \n    if unidade_idade\u003d\u003d3: #Idade em mêses\n        n_idade \u003d idade\n\n    return n_idade",
+            "column": "idade_nascimento_meses",
+            "usePythonUnicode": true
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    }
+  ],
+  "maxProcessedMemTableBytes": -1,
+  "previewMode": "ALL_ROWS",
+  "vizSampling": {
+    "_refreshTrigger": 0,
+    "autoRefreshSample": false
+  },
+  "analysisColumnData": {},
+  "sorting": [],
+  "globalSearchQuery": "",
+  "coloring": {
+    "scheme": "MEANING_AND_STATUS",
+    "individualColumns": [],
+    "valueColoringMode": "HASH"
+  }
+}
