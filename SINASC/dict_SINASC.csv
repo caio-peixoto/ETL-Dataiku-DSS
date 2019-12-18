@@ -1,5 +1,12 @@
 id,type,description
-NUMERODN,text,"Número da DN, sequencial por UF informante e por ano"
+NUMERODN,bigint,"Número da DN, sequencial por UF informante e por ano"
+CODINST,text,Código da Instalação da geração dos Registros.
+ORIGEM,bigint,
+NUMERODV,bigint,Número do Dígito Verificador
+PREFIXODN,bigint,Prefixo da DN
+CODESTAB,text,Código de estabelecimento
+CODMUNNASC,bigint,"Município de ocorrência, em codificação idêntica a de
+CODMUNRES, conforme tabela TABMUN"
 LOCNASC,bigint,"Local de ocorrência do nascimento, conforme a tabela:
 9: Ignorado
 1: Hospital
@@ -8,10 +15,8 @@ LOCNASC,bigint,"Local de ocorrência do nascimento, conforme a tabela:
 4: Outros"
 def_loc_nasc,text,"Local de nascimento (Nominal, com as seguintes classificações:
 Hospital; Outros estabelecimentos de saúde; Domicílio; Via pública; Outros; Ignorado)"
-CODMUNNASC,bigint,"Município de ocorrência, em codificação idêntica a de
-CODMUNRES, conforme tabela TABMUN"
 IDADEMAE,bigint,Idade da mãe em anos
-ESTCIVMAE,text,"Estado civil, conforme a tabela:
+ESTCIVMAE,bigint,"Estado civil, conforme a tabela:
 1: Solteira
 2: Casada
 3: Viuva
@@ -28,8 +33,8 @@ ESCMAE,bigint,"Escolaridade, anos de estudo concluídos:
 9: Ignorado"
 def_escol_mae,text,Escolaridade da mãe (Nenhuma; de 1 a 3 anos; de 4 a 7 anos; 8 a 11 anos; 12 anos e mais; Ignorado)
 CODOCUPMAE,text,"Ocupação, conforme a Classificação Brasileira de Ocupações (CBO-2002)"
-QTDFILVIVO,bigint,Número de filhos vivos
-QTDFILMORT,bigint,Número de filhos mortos
+QTDFILVIVO,text,Número de filhos vivos
+QTDFILMORT,text,Número de filhos mortos
 CODMUNRES,bigint,"Município de residência da mãe, em codificação idêntica a de
 CODMUNNASC, conforme tabela TABMUN"
 GESTACAO,bigint,"Semanas de gestação, conforme a tabela:
@@ -63,6 +68,7 @@ DTNASC,text,"Data do nascimento, no formato ddmmaaaa"
 data_nasc,date,Data de nascimento
 ano_nasc,bigint,Ano do nascimento
 dia_semana_nasc,text,Dia da semana em que ocorreu o nascimento (dom; seg; ter; qua; qui; sex; sáb)
+HORANASC,text,Horário de nascimento
 SEXO,bigint,"Sexo, conforme a tabela:
 0: Ignorado, não informado
 1: Masculino
@@ -79,13 +85,62 @@ RACACOR,bigint,"Raça/Cor:
 4: Parda
 5: Indígena"
 def_raca_cor,text,"Raça/cor (Nominal, com as seguintes classificações: Branca; Preta; Amarela; Parda; Indígena)"
-PESO,bigint,"Peso ao nascer, em gramas"
-CODANOMAL,text,"Código de malformação congênita ou anomalia cromossômica, de acordo com a CID-10"
+PESO,text,"Peso ao nascer, em gramas"
 IDANOMAL,bigint,"Anomalia congênita:
 9:Ignorado
 1:Sim
 2:Não"
 def_anomalia,text,Anomalia congênita (Ignorado; Sim; Não)
+DTCADASTRO,text,Data do cadastro da DN no sistema
+CODANOMAL,text,"Código de malformação congênita ou anomalia cromossômica, de acordo com a CID-10"
+NUMEROLOTE,bigint,Número do lote
+VERSAOSIST,text,Versão do sistema
+DTRECEBIM,text,"Data de recebimento no nível central, data da última atualização do registro."
+DIFDATA,text,Diferença entre a data de óbito e data do recebimento original da DO ([DTNASC] – [DTRECORIG])
+DTRECORIGA,text,"Data do 1o recebimento do lote, dada pelo Sisnet."
+NATURALMAE,bigint,"Se a mãe for estrangeira, constará o código do país de nascimento."
+CODMUNNATU,bigint,Código do município de naturalidade da mãe
+CODUFNATU,bigint,Código da UF de naturalidade da mãe
+ESCMAE2010,bigint,"Escolaridade 2010. Valores: 0 – Sem escolaridade; 1 –
+Fundamental I (1a a 4a série); 2 – Fundamental II (5a a 8a série);
+3 – Médio (antigo 2o Grau); 4 – Superior incompleto; 5 –
+Superior completo; 9 – Ignorado."
+SERIESCMAE,bigint,Série escolar da mãe. Valores de 1 a 8.
+DTNASCMAE,text,Data de nascimento da mãe
+RACACORMAE,bigint,Raça/cor da mãe
+QTDGESTANT,text,Número de gestações anteriores
+QTDPARTNOR,text,Número de partos vaginais
+QTDPARTCES,text,Número de partos cesáreos
+IDADEPAI,bigint,Idade do pai
+DTULTMENST,text,Data da última menstruação (DUM): dd mm aaaa
+SEMAGESTAC,bigint,Número de semanas de gestação.
+TPMETESTIM,bigint,Método utilizado. Valores: 1– Exame físico; 2– Outro método; 9– Ignorado.
+CONSPRENAT,text,Número de consultas pré‐natal
+MESPRENAT,text,Mês de gestação em que iniciou o pré‐natal
+TPAPRESENT,bigint,Tipo de apresentação do RN. Valores: 1– Cefálico; 2– Pélvica ou podálica; 3– Transversa; 9– Ignorado.
+STTRABPART,bigint,Trabalho de parto induzido? Valores: 1– Sim; 2– Não; 3– Não se aplica; 9– Ignorado.
+STCESPARTO,bigint,Cesárea ocorreu antes do trabalho de parto iniciar? Valores: 1–Sim; 2– Não; 3– Não se aplica; 9– Ignorado.
+TPNASCASSI,bigint,Nascimento foi assistido por? Valores: 1– Médico; 2–Enfermeira/obstetriz; 3– Parteira; 4– Outros; 9– Ignorado.
+TPFUNCRESP,bigint,"Tipo de função do responsável pelo preenchimento. Valores:
+1– Médico; 2– Enfermeiro; 3– Parteira; 4– Funcionário do
+cartório; 5– Outros."
+TPDOCRESP,bigint,"Tipo do documento do responsável. Valores: 1‐CNES; 2‐CRM; 3‐
+COREN; 4‐RG; 5‐CPF."
+DTDECLARAC,text,Data da declaração: dd mm aaaa
+ESCMAEAGR1,text,"Escolaridade 2010 agregada. Valores: 00 – Sem Escolaridade;
+01 – Fundamental I Incompleto; 02 – Fundamental I Completo;
+03 – Fundamental II Incompleto; 04 – Fundamental II
+Completo; 05 – Ensino Médio Incompleto; 06 – Ensino Médio
+Completo; 07 – Superior Incompleto; 08 – Superior Completo;
+09 – Ignorado; 10 – Fundamental I Incompleto ou Inespecífico;
+11 – Fundamental II Incompleto ou Inespecífico; 12 – Ensino
+Médio Incompleto ou Inespecífico."
+STDNEPIDEM,bigint,Status de DO Epidemiológica. Valores: 1 – SIM; 0 – NÃO.
+STDNNOVA,bigint,Status de DO Nova. Valores: 1 – SIM; 0 – NÃO.
+CODPAISRES,bigint,Código do país de residência
+TPROBSON,text,"Código do Grupo de Robson, gerado pelo sistema"
+PARIDADE,bigint,
+KOTELCHUCK,bigint,
 nasc_MUNNOME,text,Nome do município de nascimento
 nasc_MUNNOMEX,text,Nome do município de nascimento em maiúsculas e sem acentos
 nasc_AMAZONIA,text,Indica (S/N) se o município de nascimento faz parte da Amazônia Legal (conforme IBGE)
@@ -118,9 +173,13 @@ nasc_NOME_UF,text,Nome da unidade da federação de nascimento
 res_SIGLA_UF,text,Sigla da unidade da federação de residência
 res_CODIGO_UF,bigint,Código da UF de residência
 res_NOME_UF,text,Nome da unidade da federação de residência
+nasc_REGIAO,text,Nome da região da unidade da federação de nascimento
+res_REGIAO,text,Nome da região da unidade da federação de residência
 codanomal_capitulo,text,Capítulo CID-10 da malformação congênita ou anomalia cromossômica
 codanomal_grupo,text,Grupo CID-10 da malformação congênita ou anomalia cromossômica
 codanomal_categoria,text,Categoria CID-10 da malformação congênita ou anomalia cromossômica
 codanomal_subcategoria,text,Subcategoria CID-10 da malformação congênita ou anomalia cromossômica
 nasc_coordenadas,text,Coordenadas do município de nascimento
 res_coordenadas,text,Coordenadas do município de residência
+parto_prematuro,bigint,Indica a prematuridade do nascimento.  0: não há indícios de prematuridade; 1: há indício de prematuridade dado pela idade gestacional (GESTACAO<=4); 2: há indício de prematuridade dado pelo peso ao nascer (PESO<2500); 3: a idade gestacional e o peso ao nascer indicam prematuridade
+def_parto_prematuro,text,Indica a prematuridade do nascimento.  Termo: não há indícios de prematuridade; Inconclusivo-IG: há indício de prematuridade dado pela idade gestacional (GESTACAO<=4); Inconclusivo-Peso: há indício de prematuridade dado pelo peso ao nascer (PESO<2500); Prematuro: a idade gestacional e o peso ao nascer indicam prematuridade
