@@ -1,4 +1,4 @@
-name,type,description
+id,type,description
 NUMERODO,text,"Número da DO, seqüencial por UF informante e por ano"
 TIPOBITO,bigint,"Tipo do óbito:
 1: óbito fetal
@@ -186,25 +186,33 @@ FONTE,bigint,"Fonte da informação, conforme a tabela:
 4: Outra"
 def_fonte,text,"Fonte de informação (Nominal, com as seguintes classificações: Boletim de Ocorrência; Hospital; Família; Outra; Ignorado)"
 CODINST,text,Código da instalação da geração dos registros
-NUMERODV,bigint,
+NUMERODV,bigint,Número do Dígito Verificador
 ORIGEM,bigint,
-HORAOBITO,text,Hora do falecimento
-NUMSUS,text,
-CODMUNNATU,bigint,
-ESC2010,bigint,
-SERIESCFAL,bigint,
+HORAOBITO,text,Horário do óbito
+NUMSUS,text,Número do cartão SUS
+CODMUNNATU,bigint,Código do município de naturalidade do falecido
+ESC2010,bigint,"Escolaridade 2010. Valores: 0 – Sem escolaridade; 1 – Fundamental
+I (1a a 4a série); 2 – Fundamental II (5a a 8a série); 3 – Médio
+(antigo 2o Grau); 4 – Superior incompleto; 5 – Superior completo; 9
+– Ignorado."
+SERIESCFAL,bigint,Série escolar do falecido. Valores de 1 a 8.
 CODESTAB,text,Código do estabelecimento
 ESTABDESCR,text,
-ESCMAE2010,bigint,
-SERIESCMAE,bigint,
-SEMAGESTAC,bigint,
+ESCMAE2010,bigint,"Escolaridade 2010. Valores: 0 – Sem escolaridade; 1 – Fundamental
+I (1a a 4a série); 2 – Fundamental II (5a a 8a série); 3 – Médio
+(antigo 2o Grau); 4 – Superior incompleto; 5 – Superior completo; 9
+– Ignorado."
+SERIESCMAE,bigint,Série escolar da mãe. Valores de 1 a 8.
+SEMAGESTAC,bigint,Semanas de gestação
 NUMERODN,text,Número da Declaração de Nascimento
-TPMORTEOCO,bigint,
+TPMORTEOCO,bigint,"Informar quando a morte ocorreu: 1 – na gravidez; 2 – no parto; 3
+– no aborto; 4 – até 42 dias após o parto; 5 – de 43 dias a 1 ano
+após o parto; 8 – não ocorreu nestes períodos; 9 – ignorado."
 CB_PRE,text,Causa selecionada sem re-seleção (novo SCB)
-CRM,bigint,
-COMUNSVOIM,bigint,
+CRM,bigint,No do CRM
+COMUNSVOIM,bigint,Código do município do SVO ou do IML
 DTATESTADO,text,Data do Atestado
-NUMEROLOTE,bigint,
+NUMEROLOTE,bigint,Número do lote
 TPPOS,text,"Óbito investigado 1-Sim, 2- Não"
 DTINVESTIG,text,Data de investigação
 CAUSABAS_O,text,"Causa básica original, a primeira informação que entra no
@@ -216,10 +224,10 @@ ATESTANTE,bigint,"Indica se o médico que assina atendeu o paciente:
 3: IML
 4: SVO
 5: Outros"
-STCODIFICA,text,
-CODIFICADO,text,
-VERSAOSIST,text,
-VERSAOSCB,float,
+STCODIFICA,text,Status de instalação: se codificadora (valor: S) ou não (valor: N)
+CODIFICADO,text,Se estiver codificado (valor: S) ou não (valor: N)
+VERSAOSIST,text,Versão do sistema
+VERSAOSCB,float,Versão do seletor de causa básica
 FONTEINV,bigint,"Fonte de investigação:
 1: Comitê de Morte Materna e/ou Infantil
 2: Visita domiciliar / Entrevista família
@@ -231,14 +239,29 @@ FONTEINV,bigint,"Fonte de investigação:
 8: Múltiplas fontes
 9: Ignorado"
 DTRECEBIM,text,"Data de recebimento no nível central, data da última atualização do registro"
-ATESTADO,text,
-DTRECORIGA,text,
-CAUSAMAT,text,
-ESCMAEAGR1,text,
-ESCFALAGR1,text,
-STDOEPIDEM,bigint,
-STDONOVA,bigint,
-DIFDATA,text,
+ATESTADO,text,CIDs informado no atestado
+DTRECORIGA,text,Data do recebimento original: dd mm aaaa
+CAUSAMAT,text,Causa externa associada a uma causa materna
+ESCMAEAGR1,text,"Escolaridade 2010 agregada. Valores: 00 – Sem Escolaridade; 01 –
+Fundamental I Incompleto; 02 – Fundamental I Completo; 03 –
+Fundamental II Incompleto; 04 – Fundamental II Completo; 05 –
+Ensino Médio Incompleto; 06 – Ensino Médio Completo; 07 –
+Superior Incompleto; 08 – Superior Completo; 09 – Ignorado; 10 –
+Fundamental I Incompleto ou Inespecífico; 11 – Fundamental II
+Incompleto ou Inespecífico; 12 – Ensino Médio Incompleto ou
+Inespecífico."
+ESCFALAGR1,text,"Escolaridade 2010 agregada. Valores: 00 – Sem Escolaridade; 01 –
+Fundamental I Incompleto; 02 – Fundamental I Completo; 03 –
+Fundamental II Incompleto; 04 – Fundamental II Completo; 05 –
+Ensino Médio Incompleto; 06 – Ensino Médio Completo; 07 –
+Superior Incompleto; 08 – Superior Completo; 09 – Ignorado; 10 –
+Fundamental I Incompleto ou Inespecífico; 11 – Fundamental II
+Incompleto ou Inespecífico; 12 – Ensino Médio Incompleto ou
+Inespecífico."
+STDOEPIDEM,bigint,Status de DO Epidemiológica. Valores: 1 – SIM; 0 – NÃO.
+STDONOVA,bigint,Status de DO Nova. Valores: 1 – SIM; 0 – NÃO.
+DIFDATA,text,"Diferença entre a data de óbito e data do recebimento original da
+DO ([DTOBITO] – [DTRECORIG])"
 NUDIASOBCO,text,
 NUDIASOBIN,text,
 DTCADINV,text,
@@ -285,6 +308,8 @@ res_NOME_UF,text,Nome da unidade da federação de residência da pessoa que foi
 ocor_SIGLA_UF,text,Sigla da unidade da federação de ocorrência do óbito
 ocor_CODIGO_UF,bigint,Código IBGE da Unidade da Federação de ocorrência do óbito
 ocor_NOME_UF,text,Nome da unidade da federação de ocorrência do óbito
+res_REGIAO,text,Nome da região da unidade da federação de residência do falecido
+ocor_REGIAO,text,Nome da região da unidade da federação de ocorrência do óbito
 causabas_capitulo,text,Capítulo CID-10 da causa base do óbito
 causabas_grupo,text,Grupo CID-10 da causa base do óbito
 causabas_categoria,text,Categoria CID-10 da causa base do óbito
